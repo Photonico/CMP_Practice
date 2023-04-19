@@ -1,0 +1,1 @@
+cat ~/pot/Al/POTCAR ~/pot/B/POTCAR ~/pot/C/POTCAR ~/pot/H/POTCAR > POTCAR
