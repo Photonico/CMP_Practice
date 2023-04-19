@@ -13,3 +13,5 @@
 ## Run code
 
 `./headnode2/lniu6305/VASP544/bin/vasp_std`
+
++ With the package `py4vasp`
