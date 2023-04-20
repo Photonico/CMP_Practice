@@ -10,8 +10,13 @@
 + INCAR
     + The calculation information
 
++ KPOINTS
+    + K-points information
+
 + POSCAR
     + Check the file with Vesta
+
++ POTCAR
 
 ## Run code
 
