@@ -17,6 +17,7 @@
     + Check the file with Vesta
 
 + POTCAR
+    + Contains the pseudopotential for each atomic species used in the calculation
 
 ## Run code
 
