@@ -7,11 +7,12 @@
 
 ## Input files
 
++ INCAR
+    + The calculation information
+
 + POSCAR
     + Check the file with Vesta
 
 ## Run code
-
-`./headnode2/lniu6305/VASP544/bin/vasp_std`
 
 + With the package `py4vasp`
