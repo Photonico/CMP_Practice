@@ -1,4 +1,4 @@
-# A Note on VASP
+# VASP note
 
 ## Prepration
 
