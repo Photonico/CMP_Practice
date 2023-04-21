@@ -1,0 +1,108 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B54D5260555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1E675F8555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6DAAE3F555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B424CDDF555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B68414F6555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B26CD275555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9680B70555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1090B63555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7BBA6FE555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AC634347555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 10, file /headnode2/lniu6305/OCM_Practice/VASP/BC3/POTCAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015BB618  Unknown               Unknown  Unknown
+vasp_std           00000000015F4F6A  Unknown               Unknown  Unknown
+vasp_std           0000000000536E37  Unknown               Unknown  Unknown
+vasp_std           00000000013F31FD  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3D3C425555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown

@@ -32,7 +32,7 @@ NSW = 40
 # CG for ions, often 1 (RMM-DISS) is faster    
 IBRION = 2
 # Step for ionic-motion (for MD in fs)
-POTIM = .1
+# POTIM = .1
 
 # Performance optimization
 # The number of groups made, each group working on one set of k-points 
@@ -40,4 +40,4 @@ KPAR = 1
 # How many cores handling one orbital
 NCORE = 4
 # Real space projection; slightly less accurate but faster 
-LREAL = Auto
+#LREAL = Auto

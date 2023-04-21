@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N BC3 Practice
+#PBS -N BC3Practice
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
@@ -12,6 +12,6 @@ cd "$PBS_O_WORKDIR"
 module purge
 module load pbspro-intelmpi 
 module load compiler-rt mpi mkl
-set VASP=~/vasp544/bin/vasp_std
+set VASP=~/VASP544/bin/vasp_std
 
 mpirun -np 12 $VASP > vasp.out
