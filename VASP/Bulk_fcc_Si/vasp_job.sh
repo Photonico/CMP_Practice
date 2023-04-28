@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N BC3Practice
+#PBS -N Bulk_fcc_Si
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
@@ -13,22 +13,24 @@ module purge
 module load pbspro-intelmpi 
 module load compiler-rt mpi mkl
 set VASP=~/VASP544/bin/vasp_std
+set BIN=~/VASP544/bin/vasp_std
 
-BIN=~/VASP544/bin/vasp_std
+rm -f WAVECAR SUMMARY.fcc
 
-rm WAVECAR SUMMARY.fcc
-for i in 3.4 3.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2 4.3 ; do
-cat >POSCAR <<!
+foreach i (3.4 3.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2 4.3)
+cat > POSCAR << END
 fcc:
-    $i
+    4.3
     0.5 0.5 0.0
     0.0 0.5 0.5
     0.5 0.0 0.5
     1
     cartesian
     0 0 0
-!
-echo "a= $i" ; mpirun -np 12 $BIN
-E=`awk '/F=/ {print $0}' OSZICAR` ; echo $i $E  >>SUMMARY.fcc
-done
+END
+echo "a= $i"
+mpirun -np 12 $BIN
+set E=`awk '/F=/ {print $0}' OSZICAR` ; echo $i $E  >> SUMMARY.fcc
+end
+
 cat SUMMARY.fcc

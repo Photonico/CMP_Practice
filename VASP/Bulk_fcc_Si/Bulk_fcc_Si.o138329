@@ -1,0 +1,61 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+BIN=~/VASP544/bin/vasp_std: Command not found.
+rm: cannot remove ‘WAVECAR’: No such file or directory
+ running on   12 total cores
+ distrk:  each k-point on   12 cores,    1 groups
+ distr:  one band on    1 cores,   12 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
+  
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.397691989837E+01   -0.39769E+01   -0.10944E+03  1584   0.136E+02
+DAV:   2    -0.459573113432E+01   -0.61881E+00   -0.59872E+00  1884   0.981E+00
+DAV:   3    -0.459682697158E+01   -0.10958E-02   -0.10958E-02  1632   0.401E-01
+DAV:   4    -0.459682732871E+01   -0.35712E-06   -0.35747E-06  2232   0.639E-03
+DAV:   5    -0.459682732831E+01    0.39650E-09   -0.11203E-11  1632   0.914E-06    0.173E+00
+DAV:   6    -0.458758573920E+01    0.92416E-02   -0.48085E-03  1512   0.197E-01    0.935E-01
+DAV:   7    -0.458292412525E+01    0.46616E-02   -0.88265E-03  1596   0.266E-01    0.118E-01
+DAV:   8    -0.458292794294E+01   -0.38177E-05   -0.36110E-05  1656   0.293E-02    0.147E-02
+DAV:   9    -0.458292959195E+01   -0.16490E-05   -0.36363E-07  2088   0.276E-03    0.264E-03
+DAV:  10    -0.458292939716E+01    0.19478E-06   -0.11614E-08  1440   0.432E-04
+   1 F= -.45829294E+01 E0= -.45809964E+01  d E =-.386596E-02
+ writing wavefunctions
+E=1: Command not found.
+E: Undefined variable.

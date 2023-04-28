@@ -1,5 +1,5 @@
 fcc:
-    /etc/profile.d/zz_physics_custom.csh
+    4.3
     0.5 0.5 0.0
     0.0 0.5 0.5
     0.5 0.0 0.5
