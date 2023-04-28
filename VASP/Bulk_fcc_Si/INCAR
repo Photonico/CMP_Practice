@@ -3,7 +3,7 @@
 
 ## Project name
 SYSTEM = fcc So
-# Energy for different lattice parameters
+# Free energy for different lattice parameters; Fit to some equation of states to obtain the equilibrium volume.
 
 ## Start parameters for this Run
 ISTART = 0
