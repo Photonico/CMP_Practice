@@ -2,8 +2,9 @@
 # Created by Lu Niu, LukeNiu@outlook.com, Apr 19, 2023
 
 ## Project name
-SYSTEM = fcc Si
-# Free energy for different lattice parameters; Fit to some equation of states to obtain the equilibrium volume.
+SYSTEM = fcc Si Dos
+# Perform a static (NSW=0, IBRION=-1) self consistent calculation for the DOS (the DOS is found in the DOSCAR file.
+# 
 
 ## Start parameters for this Run
 ISTART = 0
@@ -23,7 +24,7 @@ EDIFF = 1E-6
 EDIFFG = -1E-6
 # Broadening and DOS related values
 SIGMA = 0.1
-ISMEAR = 0
+ISMEAR = -5 # tetrahedron
 # Stress tensor
 # ISIF = 3
 
@@ -42,3 +43,5 @@ ISMEAR = 0
 # NCORE = 4
 # Real space projection; slightly less accurate but faster 
 # LREAL = Auto
+
+LORBIT = 11
