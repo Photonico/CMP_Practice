@@ -15,6 +15,8 @@
 
 + `POTCAR`: Contains the pseudopotential for each atomic species used in the calculation
 
++ Move `POTCAR`: `mv`
+
 ## Output files
 
 + `OUTCAR`: This is the main output file of VASP, containing extensive information about the calculation, such as energies, forces, stresses, and convergence information. The OUTCAR file is typically the first step in analyzing VASP calculation results.
