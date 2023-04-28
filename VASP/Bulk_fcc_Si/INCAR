@@ -3,13 +3,14 @@
 
 ## Project name
 SYSTEM = fcc So
+# Energy for different lattice parameters
 
 ## Start parameters for this Run
 ISTART = 0
 ICHARG = 2
 
 ## Electronic optimization (Low, Medium, High, Accurate)
-PREC = Low
+PREC = Accurate
 # Defaults from POTCAR
 ENCUT = 240
 # Alorithm for electron optimization, can be also FAST or ALL
