@@ -1,0 +1,16 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+BIN=~/VASP544/bin/vasp_std: Command not found.
+rm: cannot remove ‘WAVECAR’: No such file or directory
+rm: cannot remove ‘SUMMARY.fcc’: No such file or directory
+for: Command not found.
+do: Command not found.
+a= /etc/profile.d/zz_physics_custom.csh
+BIN: Undefined variable.

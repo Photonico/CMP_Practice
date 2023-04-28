@@ -46,7 +46,7 @@
     + `qload` shows summary of resource availability
     + `qstat` shows jobs running
   + job submission script example below and in `<project_name>/vasp_job.sh`
-  + How to use: `qsub job.sh`
+  + How to use: `qsub vasp_job.sh`
   + More information: [USYD](http://www.physics.usyd.edu.au/computing/)
 
 ## Data analysis
