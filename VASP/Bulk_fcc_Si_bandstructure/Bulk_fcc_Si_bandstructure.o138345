@@ -1,0 +1,11 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+cp: missing destination file operand after ‘../Bulk_fcc_Si_DOS/CHGCAR’
+Try 'cp --help' for more information.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
