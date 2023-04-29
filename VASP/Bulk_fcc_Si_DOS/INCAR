@@ -3,6 +3,7 @@
 
 ## Project name
 SYSTEM = fcc Si DOS
+# Free energy for different lattice parameters; Fit to some equation of states to obtain the equilibrium volume.
 # Perform a static (NSW=0, IBRION=-1) self consistent calculation for the DOS (the DOS is found in the DOSCAR file.
 # For large system, converge with a small number of k points, and ncrease the number of k points for the DOS and set ICHARG=11 (charge density from the last self-consistent run). ICHARG=11 treats each k point independently and keeps the charge density and the potential fixed.
 # Read CHGCAR from previous run. To copy the self-consistent charge density of example fcc_Si to your current working directory. You must do this otherwise VASP can not read the CHGCAR and will terminate.
