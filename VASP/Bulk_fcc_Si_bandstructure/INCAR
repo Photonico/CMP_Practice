@@ -29,7 +29,7 @@ EDIFF = 1E-6
 EDIFFG = -1E-6
 # Broadening and DOS related values
 SIGMA = 0.1
-ISMEAR = -5 # tetrahedron
+ISMEAR = 0 # tetrahedron
 # Stress tensor
 # ISIF = 3
 
