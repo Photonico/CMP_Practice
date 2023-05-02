@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N Bulk_fcc_Si
+#PBS -N Bulk_fcc_Ni
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB

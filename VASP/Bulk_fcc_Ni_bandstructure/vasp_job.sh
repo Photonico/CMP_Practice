@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N Bulk_cd_Si_bandstructure
+#PBS -N Bulk_cd_Ni_bandstructure
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
