@@ -15,7 +15,7 @@
 
 + `POTCAR`: Contains the pseudopotential for each atomic species used in the calculation
 
-+ Move `POTCAR`: `mv`
+  + Move POTCAR for one element: `POTCAR`: `mv pot/Ni/POTCAR /headnode2/lniu6305/OCM_Practice/VASP/Bulk_fcc_Ni`
 
 ## Output files
 
