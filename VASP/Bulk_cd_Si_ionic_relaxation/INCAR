@@ -11,7 +11,7 @@ SYSTEM = cd Si
 
 ## Start parameters for this Run
 ISTART = 0
-# ICHARG = 11
+ICHARG = 2
 
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
@@ -26,15 +26,15 @@ EDIFF = 1E-6
 # Stopping-criterion for IOM (all forces smaller 1E-2)
 EDIFFG = -1E-6
 # Broadening and DOS related values
-# SIGMA = 0.1
-ISMEAR = -5
+SIGMA = 0.1
+ISMEAR = 0
 # Stress tensor
-ISIF = 3
+ISIF = 2
 # LORBIT = 11
 
 ## Ionic relaxation
 # Number of steps for IOM   
-NSW = 15
+NSW = 10
 # CG for ions, often 1 (RMM-DISS) is faster    
 IBRION = 2
 # Step for ionic-motion (for MD in fs)

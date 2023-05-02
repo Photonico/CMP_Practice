@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N Bulk_cd_Si_DOS
+#PBS -N Bulk_cd_Si_ionic_relaxation
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
