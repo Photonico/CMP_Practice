@@ -17,16 +17,16 @@ set BIN=~/VASP544/bin/vasp_std
 
 rm -f WAVECAR SUMMARY.fcc
 
-foreach i (3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 4.9 5.0)
+foreach i (3.0 3.1 3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4.0)
 cat > POSCAR << END
 fcc:
-    $i
-    0.5 0.5 0.0
-    0.0 0.5 0.5
-    0.5 0.0 0.5
-    1
-    cartesian
-    0 0 0
+ $i
+ 0.5 0.5 0.0
+ 0.0 0.5 0.5
+ 0.5 0.0 0.5
+   1
+cartesian
+0 0 0
 END
 echo "a= $i"
 mpirun -np 12 $BIN
