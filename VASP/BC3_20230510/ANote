@@ -1,0 +1,4 @@
+# This is a note for calculation
+
+Structure   a(a=b)      l(b-c)      l(c-c)      C           E(g-PBE)    E(g-HSE06)
+BC3         5.174       1.565       1.422       316.2       0.658       1.839
