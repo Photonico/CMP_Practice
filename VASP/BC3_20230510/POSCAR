@@ -1,16 +1,1 @@
-BC3 with lattice parameter 5.126A, C-C length 1.424A, B-C length 1.575A
-5.126
-5.194   0.000   0.000
-2.597   4.498   0.000
-0.000   0.000   16.00
-    B   C
-    2   6
-Cartesian
-2.597   1.499   0.000   B
-5.194   2.999   0.000   B
-1.233   0.712   0.000   C
-3.961   0.712   0.000   C
-2.597   3.074   0.000   C
-6.558   3.786   0.000   C
-3.830   3.786   0.000   C
-5.194   1.424   0.000   C
+BC3 with lattice parameter 5.174Ang, lenght of C-C 1.422Ang, lenght of B-C 1.565 Ang
