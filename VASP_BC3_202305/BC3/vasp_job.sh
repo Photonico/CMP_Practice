@@ -19,6 +19,3 @@ set VASP=~/VASP544/bin/vasp_std
 set BIN=~/VASP544/bin/vasp_std
 
 mpirun -np 12 $VASP > vasp.out
-
-rm -f WAVECAR SUMMARY.fcc
-cat SUMMARY.fcc
