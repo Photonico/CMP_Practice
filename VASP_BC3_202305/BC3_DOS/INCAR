@@ -35,9 +35,9 @@ ISMEAR = -5
 
 ## Ionic relaxation
 # Number of steps for IOM   
-NSW = 40
+# NSW = 40
 # CG for ions, often 1 (RMM-DISS) is faster    
-IBRION = 2
+# IBRION = 2
 # Step for ionic-motion (for MD in fs)
 # POTIM = .1
 
