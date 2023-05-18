@@ -7,6 +7,7 @@
 #PBS -m a
 #PBS -M luke.niu@sydney.edu.au
 
+# Calculating bandstructure need initial density of charges
 # cp ../BC3_DOS_20230510/CHGCAR
 
 cd "$PBS_O_WORKDIR"

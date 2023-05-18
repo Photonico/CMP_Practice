@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N BC3_bandstructure
+#PBS -N BC3_DOS
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
@@ -7,7 +7,8 @@
 #PBS -m a
 #PBS -M luke.niu@sydney.edu.au
 
-cp ../BC3_DOS_20230510/CHGCAR
+# Calculating bandstructure need initial density of charges
+# cp ../BC3_DOS_20230510/CHGCAR
 
 cd "$PBS_O_WORKDIR"
 
@@ -18,3 +19,6 @@ set VASP=~/VASP544/bin/vasp_std
 set BIN=~/VASP544/bin/vasp_std
 
 mpirun -np 12 $VASP > vasp.out
+
+rm -f WAVECAR SUMMARY.fcc
+cat SUMMARY.fcc

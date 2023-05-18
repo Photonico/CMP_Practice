@@ -11,7 +11,7 @@ ICHARG = 2
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
 # Projected Density of States and Mulliken population analysis
-LORBIT = 11
+# LORBIT = 11
 # Defaults from POTCAR
 ENCUT = 400
 
