@@ -9,8 +9,6 @@ SYSTEM = fcc Ni DOS
 # Read CHGCAR from previous run. To copy the self-consistent charge density of example fcc_Si to your current working directory. You must do this otherwise VASP can not read the CHGCAR and will terminate.
 # The smearing of the k points is set to the tetrahedron method with Blöchl corrections (ISMEAR=-5 to fi the problem
 
-The smearing of the k points is set to the tetrahedron method with Blöchl corrections (ISMEAR=-5 to fi the proble
-
 ## Start parameters for this Run
 ISTART = 0
 ICHARG = 2
