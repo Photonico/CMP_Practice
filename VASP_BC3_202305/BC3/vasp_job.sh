@@ -1,5 +1,5 @@
 #!/bin/csh
-#PBS -N BC3_DOS
+#PBS -N BC3
 #PBS -q defaultQ
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
