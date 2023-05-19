@@ -21,7 +21,7 @@ SYSTEM = fcc Si bandstructure
 
 ## Start parameters for this Run
 ISTART = 0
-ICHARG = 2
+ICHARG = 11
 
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
