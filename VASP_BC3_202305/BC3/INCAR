@@ -13,7 +13,7 @@ PREC = Accurate
 # Projected Density of States and Mulliken population analysis
 # LORBIT = 11
 # Defaults from POTCAR
-ENCUT = 400
+ENCUT = 450
 
 # Alorithm for electron optimization, can be also FAST or ALL
 # ALGO  =  Normal
