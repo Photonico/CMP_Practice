@@ -13,7 +13,7 @@ PREC = Accurate
 # Projected Density of States and Mulliken population analysis
 # LORBIT = 11
 # Defaults from POTCAR
-ENCUT = 400
+ENCUT = 450
 
 # Alorithm for electron optimization, can be also FAST or ALL
 # ALGO  =  Normal
@@ -35,9 +35,9 @@ ISMEAR = -5
 
 ## Ionic relaxation
 # Number of steps for IOM   
-NSW = 100
+# NSW = 100
 # CG for ions, often 1 (RMM-DISS) is faster    
-IBRION = 2
+# IBRION = 2
 # Step for ionic-motion (for MD in fs)
 # POTIM = .1
 
