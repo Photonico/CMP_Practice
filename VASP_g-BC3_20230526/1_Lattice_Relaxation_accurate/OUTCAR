@@ -757,3 +757,39 @@ Space group operators:
 
     POTLOK:  cpu time    0.1460: real time    0.1483
     SETDIJ:  cpu time    0.0023: real time    0.0023
+     EDDAV:  cpu time    6.8964: real time    6.9119
+       DOS:  cpu time    0.0008: real time    0.0007
+    --------------------------------------------
+      LOOP:  cpu time    7.0454: real time    7.0632
+
+ eigenvalue-minimisations  :  2184
+ total energy-change (2. order) : 0.2085967E+03  (-0.9776678E+03)
+ number of electron      30.0000000 magnetization 
+ augmentation part       30.0000000 magnetization 
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  alpha Z        PSCENC =        10.93933817
+  Ewald energy   TEWEN  =      4060.05404224
+  -Hartree energ DENC   =     -4796.78910906
+  -exchange      EXHF   =         0.00000000
+  -V(xc)+E(xc)   XCENC  =        91.14028263
+  PAW double counting   =       738.13200929     -739.83780425
+  entropy T*S    EENTRO =        -0.02384867
+  eigenvalues    EBANDS =      -180.22212375
+  atomic energy  EATOM  =      1025.20389953
+  Solvation  Ediel_sol  =         0.00000000
+  ---------------------------------------------------
+  free energy    TOTEN  =       208.59668613 eV
+
+  energy without entropy =      208.62053480  energy(sigma->0) =      208.60861046
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------- Iteration      1(   2)  ---------------------------------------
+
+
