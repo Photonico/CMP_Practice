@@ -1,4 +1,4 @@
-# OCM Practice
+# VASP Practice
 
 The practice notes in VASP
 
