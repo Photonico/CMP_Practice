@@ -517,3 +517,30 @@
  </structure>
  <calculation>
   <scstep>
+   <time name="dav">    4.30    4.31</time>
+   <time name="total">    4.37    4.38</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4060.05404224 </i>
+    <i name="hartreedc">  -4796.78910906 </i>
+    <i name="XCdc">     91.14028309 </i>
+    <i name="pawpsdc">    738.13200929 </i>
+    <i name="pawaedc">   -739.83780425 </i>
+    <i name="eentropy">     -0.02387451 </i>
+    <i name="bandstr">   -180.21819701 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    208.60058749 </i>
+    <i name="e_wo_entrp">    208.62446200 </i>
+    <i name="e_0_energy">    208.61252475 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">    6.00    6.01</time>
+   <time name="total">    6.00    6.01</time>
+   <energy>
+    <i name="e_fr_energy">    -39.40396472 </i>
+    <i name="e_wo_entrp">    -39.39836706 </i>
+    <i name="e_0_energy">    -39.40116589 </i>
+   </energy>
+  </scstep>
+  <scstep>

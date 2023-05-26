@@ -750,3 +750,82 @@ Space group operators:
  Maximum number of reciprocal cells 2x 2x 6
 
     FEWALD:  cpu time    0.0020: real time    0.0021
+
+
+--------------------------------------- Iteration      1(   1)  ---------------------------------------
+
+
+    POTLOK:  cpu time    0.0663: real time    0.0689
+    SETDIJ:  cpu time    0.0020: real time    0.0020
+     EDDAV:  cpu time    4.3030: real time    4.3096
+       DOS:  cpu time    0.0008: real time    0.0008
+    --------------------------------------------
+      LOOP:  cpu time    4.3720: real time    4.3813
+
+ eigenvalue-minimisations  :  2184
+ total energy-change (2. order) : 0.2086006E+03  (-0.9776763E+03)
+ number of electron      30.0000000 magnetization 
+ augmentation part       30.0000000 magnetization 
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  alpha Z        PSCENC =        10.93933817
+  Ewald energy   TEWEN  =      4060.05404224
+  -Hartree energ DENC   =     -4796.78910906
+  -exchange      EXHF   =         0.00000000
+  -V(xc)+E(xc)   XCENC  =        91.14028309
+  PAW double counting   =       738.13200929     -739.83780425
+  entropy T*S    EENTRO =        -0.02387451
+  eigenvalues    EBANDS =      -180.21819701
+  atomic energy  EATOM  =      1025.20389953
+  Solvation  Ediel_sol  =         0.00000000
+  ---------------------------------------------------
+  free energy    TOTEN  =       208.60058749 eV
+
+  energy without entropy =      208.62446200  energy(sigma->0) =      208.61252475
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------- Iteration      1(   2)  ---------------------------------------
+
+
+     EDDAV:  cpu time    5.9992: real time    6.0142
+       DOS:  cpu time    0.0007: real time    0.0007
+    --------------------------------------------
+      LOOP:  cpu time    5.9999: real time    6.0149
+
+ eigenvalue-minimisations  :  3360
+ total energy-change (2. order) :-0.2480046E+03  (-0.2336326E+03)
+ number of electron      30.0000000 magnetization 
+ augmentation part       30.0000000 magnetization 
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  alpha Z        PSCENC =        10.93933817
+  Ewald energy   TEWEN  =      4060.05404224
+  -Hartree energ DENC   =     -4796.78910906
+  -exchange      EXHF   =         0.00000000
+  -V(xc)+E(xc)   XCENC  =        91.14028309
+  PAW double counting   =       738.13200929     -739.83780425
+  entropy T*S    EENTRO =        -0.00559766
+  eigenvalues    EBANDS =      -428.24102608
+  atomic energy  EATOM  =      1025.20389953
+  Solvation  Ediel_sol  =         0.00000000
+  ---------------------------------------------------
+  free energy    TOTEN  =       -39.40396472 eV
+
+  energy without entropy =      -39.39836706  energy(sigma->0) =      -39.40116589
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------- Iteration      1(   3)  ---------------------------------------
+
+
