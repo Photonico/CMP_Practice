@@ -1,0 +1,58 @@
+ running on   12 total cores
+ distrk:  each k-point on   12 cores,    1 groups
+ distr:  one band on    1 cores,   12 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
+  
+ POSCAR found type information on POSCAR  B  C 
+ POSCAR found :  2 types and       8 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.176470012121E+03    0.17647E+03   -0.11073E+04  2064   0.864E+02
+DAV:   2    -0.498973434252E+02   -0.22637E+03   -0.21562E+03  2784   0.202E+02
+DAV:   3    -0.729867303427E+02   -0.23089E+02   -0.22981E+02  2712   0.754E+01
+DAV:   4    -0.734287723957E+02   -0.44204E+00   -0.44114E+00  3048   0.126E+01
+DAV:   5    -0.734420089771E+02   -0.13237E-01   -0.13232E-01  2760   0.193E+00    0.131E+01
+DAV:   6    -0.689896921382E+02    0.44523E+01   -0.52371E+00  3048   0.105E+01    0.740E+00
+DAV:   7    -0.673567815536E+02    0.16329E+01   -0.38267E+00  2904   0.899E+00    0.220E+00
+DAV:   8    -0.672663906791E+02    0.90391E-01   -0.22584E-01  3060   0.223E+00    0.603E-01
+DAV:   9    -0.672406068528E+02    0.25784E-01   -0.19343E-02  2652   0.779E-01    0.184E-01
+DAV:  10    -0.672221843026E+02    0.18423E-01   -0.10606E-02  2688   0.420E-01    0.165E-01
+DAV:  11    -0.672147296877E+02    0.74546E-02   -0.81005E-03  2124   0.364E-01    0.852E-02
+DAV:  12    -0.672195084864E+02   -0.47788E-02   -0.12107E-03  2496   0.145E-01    0.461E-02
+DAV:  13    -0.672272709934E+02   -0.77625E-02   -0.15000E-03  2244   0.145E-01    0.232E-02
+DAV:  14    -0.672293004896E+02   -0.20295E-02   -0.31166E-04  2232   0.616E-02    0.636E-03
+DAV:  15    -0.672295990835E+02   -0.29859E-03   -0.28975E-05  2316   0.189E-02    0.392E-03
+DAV:  16    -0.672297154929E+02   -0.11641E-03   -0.14677E-05  2124   0.109E-02    0.705E-04
+DAV:  17    -0.672297184165E+02   -0.29236E-05   -0.16381E-07  2400   0.189E-03    0.497E-04
+DAV:  18    -0.672297202708E+02   -0.18543E-05   -0.58505E-08  1548   0.889E-04    0.110E-04
+DAV:  19    -0.672297204198E+02   -0.14902E-06   -0.91878E-09  1740   0.431E-04
+   1 F= -.67229720E+02 E0= -.67229720E+02  d E =-.656768E-07
+ writing wavefunctions

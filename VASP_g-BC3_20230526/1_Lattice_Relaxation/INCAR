@@ -13,7 +13,7 @@ PREC = Normal
 # Projected Density of States and Mulliken population analysis
 # LORBIT = 11
 # Defaults from POTCAR
-ENCUT = 450 # Taken from "Strain-tunable electronic..." RSC Adv., 2018, 8, 1686
+ENCUT = 450                 # Taken from "Strain-tunable electronic..." RSC Adv., 2018, 8, 1686
 
 # Alorithm for electron optimization, can be also FAST or ALL
 ALGO  =  Normal
