@@ -1,6 +1,6 @@
 # OCM Practice
 
-The practice notes in computational optics and condensed matter physics
+The practice notes in VASP
 
 ## Git LFS
 
