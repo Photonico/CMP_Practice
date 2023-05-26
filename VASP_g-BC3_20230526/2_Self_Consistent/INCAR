@@ -16,7 +16,7 @@ PREC = Accurate
 ENCUT = 450 # Taken from "Strain-tunable electronic..." RSC Adv., 2018, 8, 1686
 
 # Alorithm for electron optimization, can be also FAST or ALL
-ALGO  =  Normal
+ALGO = Normal
 # of ELM steps, sometimes default is too small
 # NELM = 200
 # Stopping-criterion for ELM
@@ -27,7 +27,7 @@ EDIFFG = -1E-3
 SIGMA = 0.1
 ISMEAR = 0 # Gaussian Smearing
 # Stress tensor
-ISIF = 3
+# ISIF = 3
 # Electron Spin
 # ISPIN = 2
 # Magnetic moment
@@ -35,9 +35,9 @@ ISIF = 3
 
 ## Ionic relaxation
 # Number of steps for IOM   
-NSW = 128
-# CG for ions, often 1 (RMM-DISS) is faster    
-IBRION = 2
+NSW = 0
+# CG for ions, often 1 (RMM-DISS) is faster (IBRION = -1 for time-independent)
+IBRION = -1
 # Step for ionic-motion (for MD in fs)
 # POTIM = .1
 
