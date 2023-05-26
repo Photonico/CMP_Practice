@@ -9,7 +9,7 @@ ISTART = 0
 ICHARG = 2
 
 ## Electronic optimization (Low, Medium, High, Accurate)
-PREC = Accurate
+PREC = Normal
 # Projected Density of States and Mulliken population analysis
 # LORBIT = 11
 # Defaults from POTCAR
