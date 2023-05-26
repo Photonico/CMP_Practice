@@ -1,6 +1,6 @@
-# VASP Practice
+# CMP Practice
 
-The practice notes in VASP
+The practice notes in CMP
 
 ## Git LFS
 
