@@ -7,6 +7,7 @@ SYSTEM = BC3
 ## Start parameters for this Run (default ICHARG = 2 when ISTART = 0; ICHARG = 11 for bandstructure and DOS calculation)
 ISTART = 0
 ICHARG = 2
+LCHARG = .TRUE.         # LCHARG = .TRUE. for generating CHGCAR
 
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
