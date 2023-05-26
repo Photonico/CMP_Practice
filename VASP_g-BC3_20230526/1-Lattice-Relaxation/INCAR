@@ -4,7 +4,7 @@
 ## Project name
 SYSTEM = BC3
 
-## Start parameters for this Run
+## Start parameters for this Run (default ICHARG = 2 when ISTART = 0; ICHARG = 11 for bandstructure and DOS calculation)
 ISTART = 0
 ICHARG = 2
 
@@ -16,18 +16,18 @@ PREC = Accurate
 ENCUT = 450
 
 # Alorithm for electron optimization, can be also FAST or ALL
-# ALGO  =  Normal
+ALGO  =  Normal
 # of ELM steps, sometimes default is too small
 # NELM = 200
 # Stopping-criterion for ELM
 EDIFF = 1E-6
 # Stopping-criterion for IOM (all forces smaller 1E-2)
-EDIFFG = -1E-6
-# Broadening and DOS related values
-SIGMA = 0.2
+EDIFFG = -1E-3
+# Broadening and DOS related values (ISMEAR = -5 for tetrahedral method)
+SIGMA = 0.1
 ISMEAR = 0
 # Stress tensor
-# ISIF = 3
+ISIF = 3
 # Electron Spin
 # ISPIN = 2
 # Magnetic moment
@@ -35,9 +35,9 @@ ISMEAR = 0
 
 ## Ionic relaxation
 # Number of steps for IOM   
-# NSW = 40
+NSW = 128
 # CG for ions, often 1 (RMM-DISS) is faster    
-# IBRION = 2
+IBRION = 2
 # Step for ionic-motion (for MD in fs)
 # POTIM = .1
 
