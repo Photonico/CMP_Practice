@@ -2,16 +2,16 @@
 # Created by Lu Niu, LukeNiu@outlook.com, May 18, 2023
 
 ## Project name
-SYSTEM = BC3 bandstructure
+SYSTEM = BC3
 
-## Start parameters for this Run (ICHARGE = 11 means calculation of bandstructure)
+## Start parameters for this Run
 ISTART = 0
-ICHARG = 11
+ICHARG = 2
 
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
 # Projected Density of States and Mulliken population analysis
-LORBIT = 11
+# LORBIT = 11
 # Defaults from POTCAR
 ENCUT = 450
 
@@ -35,9 +35,9 @@ ISMEAR = 0
 
 ## Ionic relaxation
 # Number of steps for IOM   
-NSW = 40
+# NSW = 40
 # CG for ions, often 1 (RMM-DISS) is faster    
-IBRION = 2
+# IBRION = 2
 # Step for ionic-motion (for MD in fs)
 # POTIM = .1
 

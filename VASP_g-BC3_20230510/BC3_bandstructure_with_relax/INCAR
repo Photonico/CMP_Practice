@@ -1,0 +1,51 @@
+#### Calculation Information for BC3
+# Created by Lu Niu, LukeNiu@outlook.com, May 18, 2023
+
+## Project name
+SYSTEM = BC3 bandstructure
+
+## Start parameters for this Run (ICHARGE = 11 means calculation of bandstructure)
+ISTART = 0
+# ICHARG = 11
+
+## Electronic optimization (Low, Medium, High, Accurate)
+PREC = Accurate
+# Projected Density of States and Mulliken population analysis
+# LORBIT = 11
+# Defaults from POTCAR
+ENCUT = 450
+
+# Alorithm for electron optimization, can be also FAST or ALL
+# ALGO  =  Normal
+# of ELM steps, sometimes default is too small
+# NELM = 200
+# Stopping-criterion for ELM
+EDIFF = 1E-6
+# Stopping-criterion for IOM (all forces smaller 1E-2)
+EDIFFG = -1E-3
+# Broadening and DOS related values
+SIGMA = 0.2
+ISMEAR = 0
+# Stress tensor
+ISIF = 3
+# Electron Spin
+# ISPIN = 2
+# Magnetic moment
+# MAGMON = 1
+
+## Ionic relaxation
+# Number of steps for IOM   
+NSW = 64
+# CG for ions, often 1 (RMM-DISS) is faster    
+IBRION = 2
+# Step for ionic-motion (for MD in fs)
+# POTIM = .1
+
+# Performance optimization
+# The number of groups made, each group working on one set of k-points 
+# KPAR = 1
+# How many cores handling one orbital
+# NCORE = 4
+# Real space projection; slightly less accurate but faster 
+# LREAL = Auto
+

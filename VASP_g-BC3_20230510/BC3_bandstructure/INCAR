@@ -22,7 +22,7 @@ ENCUT = 450
 # Stopping-criterion for ELM
 EDIFF = 1E-6
 # Stopping-criterion for IOM (all forces smaller 1E-2)
-EDIFFG = -1E-6
+EDIFFG = -1E-3
 # Broadening and DOS related values
 SIGMA = 0.2
 ISMEAR = 0
