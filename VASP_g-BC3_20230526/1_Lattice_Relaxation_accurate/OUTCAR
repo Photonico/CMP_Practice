@@ -4911,3 +4911,55 @@ Space group operators:
     GENKIN:  cpu time    0.1509: real time    0.1510
     ORTHCH:  cpu time    0.3760: real time    0.3762
      LOOP+:  cpu time   85.6357: real time   85.7792
+
+
+--------------------------------------- Iteration      3(   1)  ---------------------------------------
+
+
+    POTLOK:  cpu time    0.1388: real time    0.1399
+    SETDIJ:  cpu time    0.0023: real time    0.0023
+     EDDAV:  cpu time    6.6265: real time    6.6323
+       DOS:  cpu time    0.0005: real time    0.0005
+    CHARGE:  cpu time    0.5916: real time    0.5921
+    MIXING:  cpu time    0.0043: real time    0.0043
+    --------------------------------------------
+      LOOP:  cpu time    7.3642: real time    7.3715
+
+ eigenvalue-minimisations  :  2088
+ total energy-change (2. order) :-0.1081293E-03  (-0.4437120E-03)
+ number of electron      30.0000002 magnetization 
+ augmentation part        0.4963014 magnetization 
+
+ Broyden mixing:
+  rms(total) = 0.29743E-02    rms(broyden)= 0.29713E-02
+  rms(prec ) = 0.32755E-02
+  weight for this iteration     100.00
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  alpha Z        PSCENC =        10.95210566
+  Ewald energy   TEWEN  =      4059.62539134
+  -Hartree energ DENC   =     -4937.80035711
+  -exchange      EXHF   =         0.00000000
+  -V(xc)+E(xc)   XCENC  =        96.02845114
+  PAW double counting   =      2901.55646920    -2904.08732630
+  entropy T*S    EENTRO =        -0.00000006
+  eigenvalues    EBANDS =      -318.70941517
+  atomic energy  EATOM  =      1025.20389953
+  Solvation  Ediel_sol  =         0.00000000
+  ---------------------------------------------------
+  free energy    TOTEN  =       -67.23078178 eV
+
+  energy without entropy =      -67.23078172  energy(sigma->0) =      -67.23078175
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------- Iteration      3(   2)  ---------------------------------------
+
+
+    POTLOK:  cpu time    0.1317: real time    0.1320
+    SETDIJ:  cpu time    0.0021: real time    0.0021
