@@ -1,6 +1,6 @@
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
   
- executed on             LinuxIFC date 2023.06.16  04:21:07
+ executed on             LinuxIFC date 2023.06.16  05:04:36
  running on   12 total cores
  distrk:  each k-point on   12 cores,    1 groups
  distr:  one band on NCORES_PER_BAND=   1 cores,   12 groups
@@ -1189,19 +1189,3 @@ Space group operators:
  for species   2 augmentation radius   0.874 (default was   0.699)
        energy cutoff for augmentation   1800.0
  Maximum index for augmentation-charges in exchange          708
-  SETUP_FOCK is finished
-
- total amount of memory used by VASP MPI-rank0    53755. kBytes
-=======================================================================
-
-   base      :      30000. kBytes
-   nonl-proj :      11089. kBytes
-   fftplans  :       2090. kBytes
-   grid      :       6068. kBytes
-   one-center:         24. kBytes
-   HF        :          9. kBytes
-   nonlr-proj:        459. kBytes
-   wavefun   :       4016. kBytes
- 
-     INWAV:  cpu time    0.4959: real time    0.5418
- initial charge density was supplied:

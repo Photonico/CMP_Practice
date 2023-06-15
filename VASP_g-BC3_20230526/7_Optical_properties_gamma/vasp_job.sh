@@ -9,6 +9,8 @@
 
 # Calculating optical properties requires WAVECAR
 # cp ../<>/WAVECAR
+# Calculating optical properties requires initial density of charges
+# cp ../<>/CHGCAR
 
 cd "$PBS_O_WORKDIR"
 
