@@ -417,3 +417,61 @@
    <i name="OFIELD_A">      0.00000000</i>
   </separator>
  </parameters>
+ <atominfo>
+  <atoms>       8 </atoms>
+  <types>       2 </types>
+  <array name="atoms" >
+   <dimension dim="1">ion</dimension>
+   <field type="string">element</field>
+   <field type="int">atomtype</field>
+   <set>
+    <rc><c>B </c><c>   1</c></rc>
+    <rc><c>B </c><c>   1</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+   </set>
+  </array>
+  <array name="atomtypes" >
+   <dimension dim="1">type</dimension>
+   <field type="int">atomspertype</field>
+   <field type="string">element</field>
+   <field>mass</field>
+   <field>valence</field>
+   <field type="string">pseudopotential</field>
+   <set>
+    <rc><c>   2</c><c>B </c><c>     10.81100000</c><c>      3.00000000</c><c>  PAW_PBE B 06Sep2000                   </c></rc>
+    <rc><c>   6</c><c>C </c><c>     12.01100000</c><c>      4.00000000</c><c>  PAW_PBE C 08Apr2002                   </c></rc>
+   </set>
+  </array>
+ </atominfo>
+ <structure name="initialpos" >
+  <crystal>
+   <varray name="basis" >
+    <v>       4.48084843       2.58701885       0.00000000 </v>
+    <v>      -4.48084843       2.58701885       0.00000000 </v>
+    <v>       0.00000000       0.00000000       8.52022140 </v>
+   </varray>
+   <i name="volume">    197.53348383 </i>
+   <varray name="rec_basis" >
+    <v>       0.11158601       0.19327265       0.00000000 </v>
+    <v>      -0.11158601       0.19327265       0.00000000 </v>
+    <v>       0.00000000       0.00000000       0.11736784 </v>
+   </varray>
+  </crystal>
+  <varray name="positions" >
+   <v>       0.33333300       0.66666600       0.25000000 </v>
+   <v>       0.66666600       0.33333300       0.25000000 </v>
+   <v>       0.15869124       0.31738348       0.25000000 </v>
+   <v>       0.31738348       0.15869124       0.25000000 </v>
+   <v>       0.15869124       0.84130776       0.25000000 </v>
+   <v>       0.84130776       0.15869124       0.25000000 </v>
+   <v>       0.68261552       0.84130776       0.25000000 </v>
+   <v>       0.84130776       0.68261552       0.25000000 </v>
+  </varray>
+ </structure>
+ <calculation>
+  <scstep>

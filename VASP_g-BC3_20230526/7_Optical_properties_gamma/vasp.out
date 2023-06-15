@@ -55,3 +55,9 @@
  WARNING: stress and forces are not correct
  POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ...
+ reading WAVECAR
+ random initialization beyond band           25
+ the WAVECAR file was read successfully
+ charge-density read from file: BC3                                     
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)

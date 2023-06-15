@@ -1189,3 +1189,44 @@ Space group operators:
  for species   2 augmentation radius   0.874 (default was   0.699)
        energy cutoff for augmentation   1800.0
  Maximum index for augmentation-charges in exchange          708
+  SETUP_FOCK is finished
+
+ total amount of memory used by VASP MPI-rank0    53755. kBytes
+=======================================================================
+
+   base      :      30000. kBytes
+   nonl-proj :      11089. kBytes
+   fftplans  :       2090. kBytes
+   grid      :       6068. kBytes
+   one-center:         24. kBytes
+   HF        :          9. kBytes
+   nonlr-proj:        459. kBytes
+   wavefun   :       4016. kBytes
+ 
+     INWAV:  cpu time    1.0809: real time    1.1243
+ initial charge density was supplied:
+ number of electron      29.9999997 magnetization 
+ keeping initial charge density in first step
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ Maximum index for augmentation-charges          403 (set IRDMAX)
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ First call to EWALD:  gamma=   0.304
+ Maximum number of real-space cells 3x 3x 2
+ Maximum number of reciprocal cells 2x 2x 4
+
+    FEWALD:  cpu time    0.0017: real time    0.0017
+
+
+--------------------------------------- Iteration      1(   1)  ---------------------------------------
+
+
+    POTLOK:  cpu time    0.2249: real time    0.2255
+    SETDIJ:  cpu time    0.0972: real time    0.0972
