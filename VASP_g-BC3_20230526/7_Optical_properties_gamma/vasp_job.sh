@@ -7,8 +7,8 @@
 #PBS -m a
 #PBS -M luke.niu@sydney.edu.au
 
-# Calculating bandstructure need initial density of charges
-# cp ../<>/CHGCAR
+# Calculating optical properties requires WAVECAR
+# cp ../<>/WAVECAR
 
 cd "$PBS_O_WORKDIR"
 

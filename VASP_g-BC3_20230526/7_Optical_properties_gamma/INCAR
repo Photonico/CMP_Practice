@@ -2,17 +2,15 @@
 # Created by Lu Niu, LukeNiu@outlook.com, May 18, 2023
 
 ## Project name
-SYSTEM = BC3
+SYSTEM = BC3-optical
 
-## Start parameters for this Run (default ICHARG = 2 when ISTART = 0; ICHARG = 11 for bandstructure and DOS calculation)
+## Start parameters for this Run (use wavefunction from the SCF calculation)
 ISTART = 1
-ICHARG = 0
-#LCHARG = .TRUE.         # LCHARG = .TRUE. for generating CHGCAR
+ICHARG = 11
+#LCHARG = .TRUE.         # LCHARG = .TRUE. for generating CHGCAR (not needed for optical properties)
 
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
-# Projected Density of States and Mulliken population analysis
-LORBIT = 11
 # Defaults from POTCAR
 ENCUT = 450             # Taken from "Strain-tunable electronic..." RSC Adv., 2018, 8, 1686
 
@@ -22,23 +20,39 @@ ALGO = Normal
 # NELM = 200
 # Stopping-criterion for ELM
 EDIFF = 1E-6
-# Stopping-criterion for IOM (all forces smaller 1E-2)
-EDIFFG = -1E-3
+# Projected Density of States and Mulliken population analysis
+LORBIT = 11
+
 # Broadening and DOS related values (ISMEAR = -5 for tetrahedral method for DOS)
+ISMEAR = 0  # Gaussian Smearing for optical properties
 SIGMA = 0.1
-ISMEAR = 0  # Gaussian Smearing
-# Stress tensor
+
+# Use hybrid functional (PBE0) - Commonly used for optical properties
+LHFCALC = .TRUE.
+AEXX = 0.25
+HFSCREEN = 0.2
+
+# Calculate the frequency dependent dielectric matrix
+LOPTICS = .TRUE.
+CSHIFT = 0.1
+
+# Number of empty bands (this should be sufficiently large), it can be found in OUTCAR, serach `NELECT`
+NBANDS = 30    
+
+# Stress tensor (not needed for optical properties)
 # ISIF = 3
-# Electron Spin
+
+# Electron Spin (depends on system)
 # ISPIN = 2
-# Magnetic moment
+
+# Magnetic moment (depends on system)
 # MAGMON = 1
 
-## Ionic relaxation
+## Ionic relaxation (not needed for optical properties)
 # Number of steps for IOM   
-NSW = 1
+#NSW = 1
 # CG for ions, often 1 (RMM-DISS) is faster (IBRION = -1 for time-independent)
-IBRION = 8
+#IBRION = 8
 # Step for ionic-motion (for MD in fs)
 # POTIM = .1
 
@@ -50,3 +64,6 @@ IBRION = 8
 # Real space projection; slightly less accurate but faster 
 LREAL = .FALSE.
 NWRITE = 3
+
+# Stopping-criterion for IOM (all forces smaller 1E-2) (not needed for optical properties)
+# EDIFFG = -1E-3
