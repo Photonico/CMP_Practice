@@ -4,8 +4,8 @@ from pymatgen.electronic_structure.plotter import BSPlotter
 from pymatgen.io.vasp import Vasprun
 from pymatgen.io.vasp.inputs import Kpoints
 
-vasp_run = Vasprun("3_Bandstructure_beta/vasprun.xml", parse_potcar_file=False)
-kpoints_file = "3_Bandstructure_beta/KPOINTS"
+vasp_run = Vasprun("3_Bandstructure_gamma/vasprun.xml", parse_potcar_file=False)
+kpoints_file = "3_Bandstructure_gamma/KPOINTS"
 kpoints = Kpoints.from_file(kpoints_file)
 
 bandstructure = vasp_run.get_band_structure(kpoints_filename=kpoints_file, line_mode=True)
@@ -14,7 +14,6 @@ plotter = BSPlotter(bandstructure)
 plot_data = plotter.bs_plot_data()
 
 # Plot
-
 params = {"text.usetex": False, "font.family": "serif", "mathtext.fontset": "cm", "axes.titlesize": 16, "axes.labelsize": 14, "figure.facecolor": "w"}
 plt.rcParams.update(params)
 
