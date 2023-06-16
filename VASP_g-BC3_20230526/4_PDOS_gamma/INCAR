@@ -6,13 +6,14 @@ SYSTEM = BC3
 
 ## Start parameters for this Run (default ICHARG = 2 when ISTART = 0; ICHARG = 11 for bandstructure and DOS calculation)
 ISTART = 1
-ICHARG = 0
+ICHARG = 11
 #LCHARG = .TRUE.         # LCHARG = .TRUE. for generating CHGCAR
 
 ## Electronic optimization (Low, Medium, High, Accurate)
 PREC = Accurate
 # Projected Density of States and Mulliken population analysis
 LORBIT = 11
+NEDOS = 1000
 # Defaults from POTCAR
 ENCUT = 450             # Taken from "Strain-tunable electronic..." RSC Adv., 2018, 8, 1686
 
@@ -26,7 +27,7 @@ EDIFF = 1E-6
 EDIFFG = -1E-3
 # Broadening and DOS related values (ISMEAR = -5 for tetrahedral method for DOS)
 SIGMA = 0.1
-ISMEAR = -1 # Gaussian Smearing
+ISMEAR = -5 # Gaussian Smearing
 # Stress tensor
 # ISIF = 3
 # Electron Spin

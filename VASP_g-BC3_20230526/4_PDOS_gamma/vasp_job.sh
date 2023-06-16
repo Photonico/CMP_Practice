@@ -1,6 +1,6 @@
 #!/bin/csh
 #PBS -N BC3_PDOS_gamma
-#PBS -q defaultQ
+#PBS -q cmt
 #PBS -j oe
 #PBS -l select=1:ncpus=12:mpiprocs=12:mem=30GB
 #PBS -l walltime=48:00:00
