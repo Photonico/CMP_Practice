@@ -553,3 +553,30 @@
    </energy>
   </scstep>
   <scstep>
+   <time name="diag">  560.81  560.81</time>
+   <time name="total">  560.96  560.96</time>
+   <energy>
+    <i name="e_fr_energy">    -67.22770203 </i>
+    <i name="e_wo_entrp">    -67.22770203 </i>
+    <i name="e_0_energy">    -67.22770203 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="diag">  563.95  563.95</time>
+   <time name="total">  564.11  564.10</time>
+   <energy>
+    <i name="e_fr_energy">    -67.22771724 </i>
+    <i name="e_wo_entrp">    -67.22771724 </i>
+    <i name="e_0_energy">    -67.22771724 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="diag">  563.13  563.13</time>
+   <time name="total">  563.28  563.28</time>
+   <energy>
+    <i name="e_fr_energy">    -67.22773009 </i>
+    <i name="e_wo_entrp">    -67.22773009 </i>
+    <i name="e_0_energy">    -67.22773009 </i>
+   </energy>
+  </scstep>
+  <scstep>
