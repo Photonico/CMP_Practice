@@ -23,7 +23,7 @@ EDIFF = 1E-8
 # Projected Density of States and Mulliken population analysis
 #LORBIT = 11
 # Number of points the dielectric function is calculated for.
-NEDOS = 2000
+NEDOS = 2400
 
 # Broadening and DOS related values (ISMEAR = -5 for tetrahedral method for DOS)
 ISMEAR = 0  # Gaussian Smearing for optical properties
@@ -38,8 +38,8 @@ SIGMA = 0.01 # Set smaller for dielectric function calculation
 LOPTICS = .TRUE.
 CSHIFT = 0.1
 
-# Number of empty bands (this should be sufficiently large), it can be found in OUTCAR, serach `NELECT`
-NBANDS = 100    
+# Number of empty bands (this should be sufficiently large), it can be found in OUTCAR, serach 'NELECT'
+NBANDS = 128
 
 # Stress tensor (not needed for optical properties)
 # ISIF = 3

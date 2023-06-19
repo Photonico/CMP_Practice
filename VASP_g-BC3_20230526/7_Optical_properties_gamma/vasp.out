@@ -45,32 +45,17 @@
 |      The orbitals not found in the WAVECAR file will be initialized with    |
 |      random numbers, which is usually adequate. For correlated              |
 |      calculations, however, you should redo the groundstate calculation.    |
-|      I found NBANDS    =       30  now  NBANDS  =      36                   |
+|      I found NBANDS    =      128  now  NBANDS  =     132                   |
 |                                                                             |
  ----------------------------------------------------------------------------- 
 
  found WAVECAR, reading the header
-  number of bands has changed, file:    24 present:    36
+  number of bands has changed, file:    36 present:   132
   trying to continue reading WAVECAR, but it might fail
- WARNING: stress and forces are not correct
  POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ...
  reading WAVECAR
- random initialization beyond band           25
+ random initialization beyond band           37
  the WAVECAR file was read successfully
- charge-density read from file: BC3                                     
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1    -0.769289759264E+02   -0.76929E+02   -0.94807E-01  1464   0.403E+00
-DAV:   2    -0.769425992623E+02   -0.13623E-01   -0.63006E-02  1788   0.132E+00
-DAV:   3    -0.769428653687E+02   -0.26611E-03   -0.11550E-03  1776   0.127E-01
-DAV:   4    -0.769428720395E+02   -0.66708E-05   -0.23271E-05  1740   0.196E-02
-DAV:   5    -0.769428722130E+02   -0.17352E-06   -0.58589E-07  1788   0.300E-03
-   1 F= -.76942872E+02 E0= -.76942872E+02  d E =-.135091E-14
- writing wavefunctions
- optical routines
- imaginary and real dielectric function
- recalculating local potential from charge density
- direction            1
- direction            2
- direction            3
