@@ -70,3 +70,14 @@ DIA:   8    -0.672270247686E+02   -0.40724E-02    0.00000E+00     0   0.000E+00 
 DIA:   9    -0.672277020310E+02   -0.67726E-03    0.00000E+00     0   0.000E+00    0.385E-03
 DIA:  10    -0.672277172442E+02   -0.15213E-04    0.00000E+00     0   0.000E+00    0.169E-03
 DIA:  11    -0.672277300854E+02   -0.12841E-04    0.00000E+00     0   0.000E+00    0.161E-04
+DIA:  12    -0.672277301644E+02   -0.79034E-07    0.00000E+00     0   0.000E+00    0.687E-05
+DIA:  13    -0.672277302450E+02   -0.80518E-07    0.00000E+00     0   0.000E+00    0.668E-06
+DIA:  14    -0.672277302470E+02   -0.20723E-08    0.00000E+00     0   0.000E+00
+   1 F= -.67227730E+02 E0= -.67227730E+02  d E =-.477274E-17
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3
