@@ -508,3 +508,12 @@
    </energy>
   </scstep>
   <scstep>
+   <time name="diag">  568.43  568.43</time>
+   <time name="total">  568.59  568.64</time>
+   <energy>
+    <i name="e_fr_energy">    -67.24757337 </i>
+    <i name="e_wo_entrp">    -67.24757337 </i>
+    <i name="e_0_energy">    -67.24757337 </i>
+   </energy>
+  </scstep>
+  <scstep>
