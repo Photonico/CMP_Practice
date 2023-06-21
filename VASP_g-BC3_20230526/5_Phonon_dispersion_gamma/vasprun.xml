@@ -6,13 +6,13 @@
   <i name="subversion" type="string">(build Mar 30 2023 15:39:25) complex            parallel </i>
   <i name="platform" type="string">LinuxIFC </i>
   <i name="date" type="string">2023 06 21 </i>
-  <i name="time" type="string">13:52:36 </i>
+  <i name="time" type="string">14:30:07 </i>
  </generator>
  <incar>
   <i type="string" name="SYSTEM"> BC3</i>
   <i type="int" name="ISTART">     0</i>
   <i type="string" name="PREC">accurate</i>
-  <i type="string" name="ALGO"> Exact</i>
+  <i type="string" name="ALGO"> Normal</i>
   <i type="int" name="ICHARG">     2</i>
   <i type="int" name="NELM">   200</i>
   <i type="int" name="IBRION">     8</i>
@@ -99,7 +99,7 @@
    <i name="ENMAX">    450.00000000</i>
    <i name="ENAUG">    644.87300000</i>
    <i name="EDIFF">      0.00000100</i>
-   <i type="int" name="IALGO">    90</i>
+   <i type="int" name="IALGO">    38</i>
    <i type="int" name="IWAVPR">    11</i>
    <i type="int" name="NBANDS">   696</i>
    <i name="NELECT">   1080.00000000</i>
@@ -1019,5 +1019,3 @@
    <v>       0.97355129       0.94710259       0.25000000 </v>
   </varray>
  </structure>
- <calculation>
-  <scstep>

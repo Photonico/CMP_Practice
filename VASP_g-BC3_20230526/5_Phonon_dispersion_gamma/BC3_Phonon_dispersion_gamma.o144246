@@ -1,0 +1,81 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+Terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B9123EFD630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B92083F6453  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B0B40D1A630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B0C25213443  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B027F16B630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B0363664458  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B16A12EF630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B17857E8556  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B4596B7E630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B467B0774C1  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B9CA1B55630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B9D8604E4C1  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002ADF423EF630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002AE0268E84C1  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B61A128E630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B62857874A1  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AC044918630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002AC128E114C1  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B862C2EC630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B87107E55A6  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AF223FF6630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002AF3084EF617  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B6083B67630  Unknown               Unknown  Unknown
+libmkl_avx.so.1    00002B6167BFCD66  mkl_blas_avx_xdge     Unknown  Unknown
+libmkl_sequential  00002B607BD31F3E  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  00002B607B15E99A  dgemv_                Unknown  Unknown
+vasp_std           000000000060714A  Unknown               Unknown  Unknown
+vasp_std           0000000000659F1A  Unknown               Unknown  Unknown
+vasp_std           0000000000DC551A  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CC92  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6084098555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown

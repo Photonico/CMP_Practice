@@ -1,6 +1,6 @@
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
   
- executed on             LinuxIFC date 2023.06.21  13:52:36
+ executed on             LinuxIFC date 2023.06.21  14:30:07
  running on   12 total cores
  distrk:  each k-point on   12 cores,    1 groups
  distr:  one band on NCORES_PER_BAND=   1 cores,   12 groups
@@ -734,7 +734,7 @@ Space group operators:
    ISMEAR =     0;   SIGMA  =   0.10  broadening in eV -4-tet -1-fermi 0-gaus
 
  Electronic relaxation 2 (details)
-   IALGO  =     90    algorithm
+   IALGO  =     38    algorithm
    LDIAG  =      T    sub-space diagonalisation (order eigenvalues)
    LSUBROT=      F    optimize rotation matrix (better conditioning)
    TURBO    =      0    0=normal 1=particle mesh
@@ -811,10 +811,8 @@ Space group operators:
  linear response using symmetry
  charge density and potential will be updated during run
  non-spin polarized calculation
- Exact diagonalization
- preconditioned conjugated gradient (Jacobi prec)
-    charged. constant during bandupdate  
-    band-by band algorithm
+ Variant of blocked Davidson
+ Davidson routine will perform the subspace rotation
  perform sub-space diagonalisation
     after iterative eigenvector-optimisation
  modified Broyden-mixing scheme, WC =      100.0
@@ -1479,7 +1477,7 @@ Space group operators:
    one-center:        884. kBytes
    wavefun   :    1016805. kBytes
  
-     INWAV:  cpu time    0.0000: real time    0.0000
+     INWAV:  cpu time    0.0001: real time    0.0001
  Broyden mixing: mesh for mixing (old mesh)
    NGX =107   NGY =107   NGZ = 29
   (NGX  =432   NGY  =432   NGZ  =120)
@@ -1495,20 +1493,3 @@ Space group operators:
 
 
  Maximum index for augmentation-charges          403 (set IRDMAX)
-
-
---------------------------------------------------------------------------------------------------------
-
-
- First call to EWALD:  gamma=   0.092
- Maximum number of real-space cells 2x 2x 6
- Maximum number of reciprocal cells 4x 4x 1
-
-    FEWALD:  cpu time    0.0386: real time    0.0389
-
-
---------------------------------------- Iteration      1(   1)  ---------------------------------------
-
-
-    POTLOK:  cpu time    1.9085: real time    1.9100
-    SETDIJ:  cpu time    0.0427: real time    0.0427

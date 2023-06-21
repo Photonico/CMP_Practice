@@ -46,5 +46,3 @@
  POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ...
  WAVECAR not read
- entering main loop
-       N       E                     dE             d eps       ncg     rms          rms(c)
