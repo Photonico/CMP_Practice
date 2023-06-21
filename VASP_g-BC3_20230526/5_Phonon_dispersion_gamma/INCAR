@@ -17,18 +17,18 @@ PREC = Accurate
 ENCUT = 450             # Taken from "Strain-tunable electronic..." RSC Adv., 2018, 8, 1686
 
 # Alorithm for electron optimization, can be also FAST or ALL
-ALGO = Exact
+ALGO = Normal
 # of ELM steps, sometimes default is too small
 NELM = 200
 # Stopping-criterion for ELM
 EDIFF = 1E-6
-# Stopping-criterion foWr IOM (all forces smaller 1E-2)
+# Stopping-criterion for IOM (all forces smaller 1E-2)
 EDIFFG = -1E-3
 # Broadening and DOS related values (ISMEAR = -5 for tetrahedral method for DOS)
-SIGMA = 0.01                # A small value of smearing is used
+SIGMA = 0.1                # A small value of smearing is used
 ISMEAR = 0 # Gaussian Smearing
 # Stress tensor
-ISIF = 3                    # Specifies that stress tensor should be calculated
+ISIF = 2                    # Specifies that stress tensor should be calculated, ISIF = 2 only atomic positions optimised (default), ISIF = 3 atomic positions and supercell geometry are optimised.
 # Electron Spin
 # ISPIN = 2
 # Magnetic moment
@@ -40,7 +40,7 @@ NSW = 1
 # CG for ions, often 1 (RMM-DISS) is faster (IBRION = -1 for time-independent)
 IBRION = 8                  # Switches to use perturbation theory method, suitable for phonon calculations
 # Step for ionic-motion (for MD in fs)
-POTIM = 0.01
+# POTIM = 0.01
 
 # Performance optimization
 # The number of groups made, each group working on one set of k-points 
