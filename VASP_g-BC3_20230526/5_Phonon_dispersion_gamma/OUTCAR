@@ -1546,3 +1546,39 @@ Space group operators:
 --------------------------------------- Iteration      1(   2)  ---------------------------------------
 
 
+     EDDAV:  cpu time 5062.7380: real time 5062.7139
+       DOS:  cpu time    0.0013: real time    0.0013
+    --------------------------------------------
+      LOOP:  cpu time 5062.7392: real time 5062.7151
+
+ eigenvalue-minimisations  : 13500
+ total energy-change (2. order) :-0.8914247E+04  (-0.8521020E+04)
+ number of electron    1080.0000000 magnetization 
+ augmentation part     1080.0000000 magnetization 
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  alpha Z        PSCENC =       924.45162320
+  Ewald energy   TEWEN  =     25209.75278834
+  -Hartree energ DENC   =    -54891.58250642
+  -exchange      EXHF   =         0.00000000
+  -V(xc)+E(xc)   XCENC  =      3281.13830629
+  PAW double counting   =     26572.75233448   -26634.16095297
+  entropy T*S    EENTRO =        -0.00000023
+  eigenvalues    EBANDS =    -12750.79616700
+  atomic energy  EATOM  =     36907.34038308
+  Solvation  Ediel_sol  =         0.00000000
+  ---------------------------------------------------
+  free energy    TOTEN  =     -1381.10419122 eV
+
+  energy without entropy =    -1381.10419099  energy(sigma->0) =    -1381.10419110
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------- Iteration      1(   3)  ---------------------------------------
+
+
