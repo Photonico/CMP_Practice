@@ -1,5 +1,0 @@
-K-points for BC3
-0
-Gamma
-12  12  1  # Reduced kpoints for larger supercell from 12*12*1
-0   0   0
