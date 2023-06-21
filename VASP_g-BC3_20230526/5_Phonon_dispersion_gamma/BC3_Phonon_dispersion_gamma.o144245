@@ -1,0 +1,141 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0073D51555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B233F9E3555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7594C1B555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB224D7A555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2EF8A41555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B01C340C555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B955D2E4555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADFDC2EA555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B61C6E49555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6C2A718555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB20A8C2555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015FF125  Unknown               Unknown  Unknown
+vasp_std           00000000005683B3  Unknown               Unknown  Unknown
+vasp_std           0000000000D2AAB8  Unknown               Unknown  Unknown
+vasp_std           0000000000E2CD89  Unknown               Unknown  Unknown
+vasp_std           000000000143B608  Unknown               Unknown  Unknown
+vasp_std           0000000001417A6B  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACC6935B555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown

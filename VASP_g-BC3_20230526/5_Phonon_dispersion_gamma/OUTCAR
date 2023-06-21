@@ -1495,3 +1495,20 @@ Space group operators:
 
 
  Maximum index for augmentation-charges          403 (set IRDMAX)
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ First call to EWALD:  gamma=   0.092
+ Maximum number of real-space cells 2x 2x 6
+ Maximum number of reciprocal cells 4x 4x 1
+
+    FEWALD:  cpu time    0.0386: real time    0.0389
+
+
+--------------------------------------- Iteration      1(   1)  ---------------------------------------
+
+
+    POTLOK:  cpu time    1.9085: real time    1.9100
+    SETDIJ:  cpu time    0.0427: real time    0.0427
