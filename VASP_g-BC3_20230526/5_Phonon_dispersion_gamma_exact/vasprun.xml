@@ -6,13 +6,13 @@
   <i name="subversion" type="string">(build Mar 30 2023 15:39:25) complex            parallel </i>
   <i name="platform" type="string">LinuxIFC </i>
   <i name="date" type="string">2023 06 21 </i>
-  <i name="time" type="string">14:30:07 </i>
+  <i name="time" type="string">23:41:18 </i>
  </generator>
  <incar>
   <i type="string" name="SYSTEM"> BC3</i>
   <i type="int" name="ISTART">     0</i>
   <i type="string" name="PREC">accurate</i>
-  <i type="string" name="ALGO"> Normal</i>
+  <i type="string" name="ALGO"> Exact</i>
   <i type="int" name="ICHARG">     2</i>
   <i type="int" name="NELM">   200</i>
   <i type="int" name="IBRION">     8</i>
@@ -63,30 +63,54 @@
  </varray>
  <kpoints>
   <generation param="Gamma">
-   <v type="int" name="divisions">       6        6        1 </v>
+   <v type="int" name="divisions">      12       12        1 </v>
    <v name="usershift">      0.00000000       0.00000000       0.00000000 </v>
-   <v name="genvec1">      0.16666667       0.00000000       0.00000000 </v>
-   <v name="genvec2">      0.00000000       0.16666667       0.00000000 </v>
+   <v name="genvec1">      0.08333333       0.00000000       0.00000000 </v>
+   <v name="genvec2">      0.00000000       0.08333333       0.00000000 </v>
    <v name="genvec3">      0.00000000       0.00000000       1.00000000 </v>
    <v name="shift">      0.00000000       0.00000000       0.00000000 </v>
   </generation>
   <varray name="kpointlist" >
    <v>       0.00000000       0.00000000       0.00000000 </v>
+   <v>       0.08333333       0.00000000       0.00000000 </v>
    <v>       0.16666667      -0.00000000       0.00000000 </v>
+   <v>       0.25000000      -0.00000000       0.00000000 </v>
    <v>       0.33333333       0.00000000       0.00000000 </v>
+   <v>       0.41666667       0.00000000       0.00000000 </v>
    <v>       0.50000000      -0.00000000       0.00000000 </v>
+   <v>       0.08333333       0.08333333       0.00000000 </v>
+   <v>       0.16666667       0.08333333       0.00000000 </v>
+   <v>       0.25000000       0.08333333       0.00000000 </v>
+   <v>       0.33333333       0.08333333       0.00000000 </v>
+   <v>       0.41666667       0.08333333       0.00000000 </v>
    <v>       0.16666667       0.16666667       0.00000000 </v>
+   <v>       0.25000000       0.16666667       0.00000000 </v>
    <v>       0.33333333       0.16666667       0.00000000 </v>
+   <v>       0.41666667       0.16666667       0.00000000 </v>
+   <v>       0.25000000       0.25000000       0.00000000 </v>
+   <v>       0.33333333       0.25000000       0.00000000 </v>
    <v>       0.33333333       0.33333333       0.00000000 </v>
   </varray>
   <varray name="weights" >
-   <v>       0.02777778 </v>
-   <v>       0.16666667 </v>
-   <v>       0.16666667 </v>
+   <v>       0.00694444 </v>
+   <v>       0.04166667 </v>
+   <v>       0.04166667 </v>
+   <v>       0.04166667 </v>
+   <v>       0.04166667 </v>
+   <v>       0.04166667 </v>
+   <v>       0.02083333 </v>
+   <v>       0.04166667 </v>
    <v>       0.08333333 </v>
-   <v>       0.16666667 </v>
-   <v>       0.33333333 </v>
-   <v>       0.05555556 </v>
+   <v>       0.08333333 </v>
+   <v>       0.08333333 </v>
+   <v>       0.08333333 </v>
+   <v>       0.04166667 </v>
+   <v>       0.08333333 </v>
+   <v>       0.08333333 </v>
+   <v>       0.04166667 </v>
+   <v>       0.04166667 </v>
+   <v>       0.08333333 </v>
+   <v>       0.01388889 </v>
   </varray>
  </kpoints>
  <parameters>
@@ -99,7 +123,7 @@
    <i name="ENMAX">    450.00000000</i>
    <i name="ENAUG">    644.87300000</i>
    <i name="EDIFF">      0.00000100</i>
-   <i type="int" name="IALGO">    38</i>
+   <i type="int" name="IALGO">    90</i>
    <i type="int" name="IWAVPR">    11</i>
    <i type="int" name="NBANDS">   696</i>
    <i name="NELECT">   1080.00000000</i>
@@ -1019,77 +1043,3 @@
    <v>       0.97355129       0.94710259       0.25000000 </v>
   </varray>
  </structure>
- <calculation>
-  <scstep>
-   <time name="dav"> 3950.65 3950.63</time>
-   <time name="total"> 3952.60 3952.59</time>
-   <energy>
-    <i name="alphaZ">    924.45162320 </i>
-    <i name="ewald">  25209.75278834 </i>
-    <i name="hartreedc"> -54891.58250642 </i>
-    <i name="XCdc">   3281.13830629 </i>
-    <i name="pawpsdc">  26572.75233448 </i>
-    <i name="pawaedc"> -26634.16095297 </i>
-    <i name="eentropy">     -0.31657817 </i>
-    <i name="bandstr">  -3836.23257687 </i>
-    <i name="atom">  36907.34038308 </i>
-    <i name="e_fr_energy">   7533.14282097 </i>
-    <i name="e_wo_entrp">   7533.45939914 </i>
-    <i name="e_0_energy">   7533.30111006 </i>
-   </energy>
-  </scstep>
-  <scstep>
-   <time name="dav"> 5062.74 5062.71</time>
-   <time name="total"> 5062.74 5062.72</time>
-   <energy>
-    <i name="e_fr_energy">  -1381.10419122 </i>
-    <i name="e_wo_entrp">  -1381.10419099 </i>
-    <i name="e_0_energy">  -1381.10419110 </i>
-   </energy>
-  </scstep>
-  <scstep>
-   <time name="dav"> 4304.79 4304.77</time>
-   <time name="total"> 4304.79 4304.77</time>
-   <energy>
-    <i name="e_fr_energy">  -2595.50718789 </i>
-    <i name="e_wo_entrp">  -2595.50718789 </i>
-    <i name="e_0_energy">  -2595.50718789 </i>
-   </energy>
-  </scstep>
-  <scstep>
-   <time name="dav"> 4620.20 4620.17</time>
-   <time name="total"> 4620.20 4620.18</time>
-   <energy>
-    <i name="e_fr_energy">  -2642.13295277 </i>
-    <i name="e_wo_entrp">  -2642.13295277 </i>
-    <i name="e_0_energy">  -2642.13295277 </i>
-   </energy>
-  </scstep>
-  <scstep>
-   <time name="dav"> 4823.81 4823.79</time>
-   <time name="total"> 4854.23 4854.21</time>
-   <energy>
-    <i name="e_fr_energy">  -2643.82105817 </i>
-    <i name="e_wo_entrp">  -2643.82105817 </i>
-    <i name="e_0_energy">  -2643.82105817 </i>
-   </energy>
-  </scstep>
-  <scstep>
-   <time name="dav"> 4112.59 4112.57</time>
-   <time name="total"> 4144.79 4144.78</time>
-   <energy>
-    <i name="e_fr_energy">  -2483.33772103 </i>
-    <i name="e_wo_entrp">  -2483.33772103 </i>
-    <i name="e_0_energy">  -2483.33772103 </i>
-   </energy>
-  </scstep>
-  <scstep>
-   <time name="dav"> 4012.51 4012.49</time>
-   <time name="total"> 4045.31 4045.75</time>
-   <energy>
-    <i name="e_fr_energy">  -2423.97819309 </i>
-    <i name="e_wo_entrp">  -2423.97819308 </i>
-    <i name="e_0_energy">  -2423.97819308 </i>
-   </energy>
-  </scstep>
-  <scstep>

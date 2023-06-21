@@ -1,0 +1,119 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+=>> PBS: job killed: mem 39645752kb exceeded limit 31457280kb
+Terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B08771E8630  Unknown               Unknown  Unknown
+vasp_std           0000000000614A02  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0877719555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B117265B630  Unknown               Unknown  Unknown
+vasp_std           0000000000614EC5  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1172B8C555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AACE11AC630  Unknown               Unknown  Unknown
+vasp_std           0000000000615365  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AACE16DD555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B56C8360630  Unknown               Unknown  Unknown
+vasp_std           0000000000618EBF  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B56C8891555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B5F7E606630  Unknown               Unknown  Unknown
+vasp_std           0000000000614CA7  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5F7EB37555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B6CCFEEC630  Unknown               Unknown  Unknown
+vasp_std           0000000000614CA7  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6CD041D555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B9CE02BB630  Unknown               Unknown  Unknown
+vasp_std           00000000006153AB  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9CE07EC555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B188ED01630  Unknown               Unknown  Unknown
+vasp_std           0000000000615365  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B188F232555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B7C76EC8630  Unknown               Unknown  Unknown
+vasp_std           0000000000614EC5  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7C773F9555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002ABA7C6F1630  Unknown               Unknown  Unknown
+vasp_std           0000000000614EC5  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABA7CC22555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAD966E0630  Unknown               Unknown  Unknown
+vasp_std           0000000000614EC5  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAD96C11555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std           00000000015C8BBB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002ABD42511630  Unknown               Unknown  Unknown
+vasp_std           0000000000614BF2  Unknown               Unknown  Unknown
+vasp_std           0000000001412F2C  Unknown               Unknown  Unknown
+vasp_std           000000000040F7A2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABD42A42555  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040F6A9  Unknown               Unknown  Unknown
