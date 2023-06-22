@@ -1,52 +1,3 @@
- running on   12 total cores
- distrk:  each k-point on   12 cores,    1 groups
- distr:  one band on    1 cores,   12 groups
- using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
-  
- POSCAR found type information on POSCAR  B  C 
- POSCAR found :  2 types and      72 ions
- scaLAPACK will be used
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
-|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
-|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
-|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
-|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
-|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
-|                                                                             |
-|      For optimal performance we recommend to set                            |
-|        NCORE= 4 - approx SQRT( number of cores)                             |
-|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
-|      This setting can  greatly improve the performance of VASP for DFT.     |
-|      The default,   NCORE=1            might be grossly inefficient         |
-|      on modern multi-core architectures or massively parallel machines.     |
-|      Do your own testing !!!!                                               |
-|      Unfortunately you need to use the default for GW and RPA calculations. |
-|      (for HF NCORE is supported but not extensively tested yet)             |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
-|                                                                             |
-|      You have a (more or less) 'large supercell' and for larger cells       |
-|      it might be more efficient to use real space projection opertators     |
-|      So try LREAL= Auto  in the INCAR   file.                               |
-|      Mind:          For very  accurate calculation you might also keep the  |
-|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-
- LDA part: xc-table for Pade appr. of Perdew
- POSCAR, INCAR and KPOINTS ok, starting setup
- FFT: planning ...
- WAVECAR not read
- entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
 DAV:   1     0.184685194692E+04    0.18469E+04   -0.10361E+05  1440   0.109E+03
 DAV:   2    -0.363212932738E+03   -0.22101E+04   -0.21192E+04  2064   0.271E+02
@@ -67,7 +18,7 @@ DAV:  16    -0.605050670511E+03   -0.33267E-04   -0.10442E-06  1128   0.217E-03 
 DAV:  17    -0.605050675415E+03   -0.49041E-05   -0.26299E-07   936   0.106E-03    0.215E-04
 DAV:  18    -0.605050675709E+03   -0.29451E-06   -0.46096E-08   972   0.478E-04
    1 F= -.60505068E+03 E0= -.60505068E+03  d E =-.590769E-06
- Linear response reoptimize wavefunctions to high precision
+ Linear response reoptimize wavefunctions
 DAV:   1    -0.605050675703E+03    0.65393E-08   -0.99799E-09  1104   0.213E-04
 DAV:   2    -0.605050675703E+03   -0.13097E-09   -0.30262E-09  1104   0.113E-04
 DAV:   3    -0.605050675703E+03   -0.58208E-09   -0.13793E-09  1044   0.714E-05
@@ -82,7 +33,6 @@ RMM:   4    -0.477686372469E-01    0.76728E-04   -0.15257E-04  4038   0.221E-02 
 RMM:   5    -0.477378038804E-01    0.30833E-04   -0.88337E-05  3915   0.163E-02    0.738E-03
 RMM:   6    -0.477364811286E-01    0.13228E-05   -0.33096E-06  4306   0.309E-03    0.288E-03
 RMM:   7    -0.477373758529E-01   -0.89472E-06   -0.23905E-06  4039   0.173E-03    0.880E-04
- force on displaced ion       1 direction 1 : -40.390  -0.000   0.000
  Linear response progress:
   Degree of freedom:   2/  4
        N       E                     dE             d eps       ncg     rms          rms(c)
@@ -92,7 +42,6 @@ RMM:   3    -0.324960962532E-01    0.28906E-03   -0.31932E-04  2179   0.328E-02 
 RMM:   4    -0.323948711889E-01    0.10123E-03   -0.26282E-04  2201   0.313E-02    0.200E-02
 RMM:   5    -0.323617276027E-01    0.33144E-04   -0.28686E-05  2247   0.106E-02    0.320E-03
 RMM:   6    -0.323623647081E-01   -0.63711E-06   -0.10376E-06  2423   0.179E-03    0.106E-03
- force on displaced ion       1 direction 3 :   0.000   0.000 -12.398
  Linear response progress:
   Degree of freedom:   3/  4
        N       E                     dE             d eps       ncg     rms          rms(c)

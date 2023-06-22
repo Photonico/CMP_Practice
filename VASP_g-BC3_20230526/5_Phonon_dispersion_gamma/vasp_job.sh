@@ -2,7 +2,7 @@
 #PBS -N BC3_Phonon_dispersion_gamma
 #PBS -q cmt
 #PBS -j oe
-#PBS -l select=2:ncpus=32:mpiprocs=32:mem=128GB
+#PBS -l select=1:ncpus=16:mpiprocs=16:mem=64GB
 #PBS -l walltime=48:00:00
 #PBS -m a
 #PBS -M luke.niu@sydney.edu.au
