@@ -6,8 +6,8 @@ phonopy:
     atom_name: "B C"
     dim: "3 3 1"
     force_constants: "READ"
-    band: "0.333 0.333 0.000    0.000 0.000 0.000   0.000 0.000 0.000   0.000 0.500 0.000   0.000 0.500 0.000   0.000 0.333 0.000"
-    band_labels: "K $\\Gamma$ $\\Gamma$ M K"
+    mp: "8 8 8"
+    dos: ".TRUE."
     cell_filename: "POSCAR-unitcell"
 
 physical_unit:
