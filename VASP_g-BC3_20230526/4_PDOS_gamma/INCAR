@@ -27,7 +27,7 @@ EDIFF = 1E-6
 EDIFFG = -1E-3
 # Broadening and DOS related values (ISMEAR = -5 for tetrahedral method for DOS)
 SIGMA = 0.1
-ISMEAR = -5 # Gaussian Smearing
+ISMEAR = 1  # Gaussian Smearing
 # Stress tensor
 # ISIF = 3
 # Electron Spin
