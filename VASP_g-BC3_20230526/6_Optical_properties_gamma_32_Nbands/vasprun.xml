@@ -553,3 +553,12 @@
    </energy>
   </scstep>
   <scstep>
+   <time name="diag">  998.08 1125.90</time>
+   <time name="total">  998.31 1126.14</time>
+   <energy>
+    <i name="e_fr_energy">    -67.22770203 </i>
+    <i name="e_wo_entrp">    -67.22770203 </i>
+    <i name="e_0_energy">    -67.22770203 </i>
+   </energy>
+  </scstep>
+  <scstep>
