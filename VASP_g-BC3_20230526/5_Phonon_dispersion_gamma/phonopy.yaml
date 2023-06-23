@@ -6,7 +6,7 @@ phonopy:
     atom_name: "B C"
     dim: "3 3 1"
     force_constants: "READ"
-    mp: "8 8 8"
+    mp: "40 40 40"
     dos: ".TRUE."
     cell_filename: "POSCAR-unitcell"
 
