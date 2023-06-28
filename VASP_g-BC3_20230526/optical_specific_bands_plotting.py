@@ -1,4 +1,4 @@
-#### Ploting for Charge Density Response in specific NBANDS
+#### Ploting for Charge Density Response for Specific NBANDS
 # pylint: disable = C0103, C0114, C0116, C0301, C0321, R0914
 
 ### Import the necessary packages and data for plotting
