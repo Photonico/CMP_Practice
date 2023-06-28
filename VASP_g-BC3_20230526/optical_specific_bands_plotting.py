@@ -6,7 +6,6 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from optical_properties import extract_optical_properties
 
 params = {"text.usetex": False, "font.family": "serif", "mathtext.fontset": "cm",
           "axes.titlesize": 10, "axes.labelsize": 10, "figure.facecolor": "w"}
