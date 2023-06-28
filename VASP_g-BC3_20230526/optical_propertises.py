@@ -1,5 +1,5 @@
 #### Declarations of process functions for Optical Propertises
-# pylint: disable = C0103, C0114, C0116, R0914
+# pylint: disable = C0103, C0114, C0116, C0301, R0914
 
 ### Necessary packages invoking
 import xml.etree.ElementTree as ET
@@ -21,7 +21,7 @@ def extract_opt_vectorized(file_path):
     nedos = int(nedos_element.text.strip())
 
     ## Loop variables
-    # Define prefixes: 
+    # Define prefixes:
         # e_ for Density-Density (Charge density response)
         # c_ for Current-Current (Current response)
     prefixes = ["e_", "c_"]
@@ -35,7 +35,7 @@ def extract_opt_vectorized(file_path):
         # Select prefix based on the loop index
         prefix = prefixes[loop_index]
         # Initialize columns as lists
-        columns = ["energy_imag_col", 
+        columns = ["energy_imag_col",
                    "xx_imag_col", "yy_imag_col", "zz_imag_col", "xy_imag_col", "yz_imag_col", "zx_imag_col"]
         for col in columns:
             data[prefix + col] = []
@@ -55,7 +55,7 @@ def extract_opt_vectorized(file_path):
         # Select prefix based on the loop index
         prefix = prefixes[loop_index]
         # Initialize columns as lists
-        columns = ["energy_real_col", 
+        columns = ["energy_real_col",
                    "xx_real_col", "yy_real_col", "zz_real_col", "xy_real_col", "yz_real_col", "zx_real_col"]
         for col in columns:
             data[prefix + col] = []
@@ -67,7 +67,7 @@ def extract_opt_vectorized(file_path):
         # Convert lists to numpy arrays
         for col in columns:
             data[prefix + col] = np.array(data[prefix + col])
-    
+
     ## Extract Fermi energy
     efermi_element = root.find(".//dos/i[@name='efermi']")
     fermi_energy = float(efermi_element.text.strip())
@@ -76,7 +76,7 @@ def extract_opt_vectorized(file_path):
     conductivity_path = ".//conductivity[@comment='spin=1']/array/set"
     conductivity_set_element = tree.find(conductivity_path)
     # Initialize columns as lists
-    columns = ["conductivity_energy", 
+    columns = ["conductivity_energy",
                "conductivity_xx", "conductivity_yy", "conductivity_zz", "conductivity_xy", "conductivity_yz", "conductivity_zx"]
     # Initialize dictionary
     conductivity_data = {col: [] for col in columns}
@@ -145,3 +145,52 @@ def extract_opt_vectorized(file_path):
             dos_data["total_dos"],                      # [39]: total DOS
             dos_data["integrated_dos"],                 # [40]: integrated DOS
             )
+
+##### Data Process
+def process_optical_properties(opt_file_name):
+    opt_file_path = f"{opt_file_name}/vasprun.xml"
+    results = extract_opt_vectorized(opt_file_path)
+
+    globals().update({f"{name}_{opt_file_name.split('_')[-1]}": results[i] for i, name in enumerate([
+        "nedos",                                       # [0]: NEDOS
+        "density_imag_energy",                          # [1]: imaginary part of energy of Density-Density
+        "density_imag_xx",                              # [2]: imaginary part of xx direction of Density-Density
+        "density_imag_yy",                              # [3]: imaginary part of yy direction of Density-Density
+        "density_imag_zz",                              # [4]: imaginary part of zz direction of Density-Density
+        "density_imag_xy",                              # [5]: imaginary part of xy direction of Density-Density
+        "density_imag_yz",                              # [6]: imaginary part of yz direction of Density-Density
+        "density_imag_zx",                              # [7]: imaginary part of zx direction of Density-Density
+        "current_imag_energy",                          # [8]: imaginary part of energy of Current-Current
+        "current_imag_xx",                              # [9]: imaginary part of xx direction of Current-Current
+        "current_imag_yy",                              # [10]: imaginary part of yy direction of Current-Current
+        "current_imag_zz",                              # [11]: imaginary part of zz direction of Current-Current
+        "current_imag_xy",                              # [12]: imaginary part of xy direction of Current-Current
+        "current_imag_yz",                              # [13]: imaginary part of yz direction of Current-Current
+        "current_imag_zx",                              # [14]: imaginary part of zx direction of Current-Current
+        "density_real_energy",                          # [15]: real part of energy of Density-Density
+        "density_real_xx",                              # [16]: real part of xx direction of Density-Density
+        "density_real_yy",                              # [17]: real part of yy direction of Density-Density
+        "density_real_zz",                              # [18]: real part of zz direction of Density-Density
+        "density_real_xy",                              # [19]: real part of xy direction of Density-Density
+        "density_real_yz",                              # [20]: real part of yz direction of Density-Density
+        "density_real_zx",                              # [21]: real part of zx direction of Density-Density
+        "current_real_energy",                          # [22]: real part of energy of Current-Current
+        "current_real_xx",                              # [23]: real part of xx direction of Current-Current
+        "current_real_yy",                              # [24]: real part of yy direction of Current-Current
+        "current_real_zz",                              # [25]: real part of zz direction of Current-Current
+        "current_real_xy",                              # [26]: real part of xy direction of Current-Current
+        "current_real_yz",                              # [27]: real part of yz direction of Current-Current
+        "current_real_zx",                              # [28]: real part of zx direction of Current-Current
+        "data_label",                                   # [29]: data label
+        "fermi_energy",                                 # [30]: system Fermi energy
+        "conductivity_energy",                          # [31]: energy of conductivity
+        "conductivity_xx",                              # [32]: xx direction of conductivity
+        "conductivity_yy",                              # [33]: yy direction of conductivity
+        "conductivity_zz",                              # [34]: zz direction of conductivity
+        "conductivity_xy",                              # [35]: xy direction of conductivity
+        "conductivity_yz",                              # [36]: yz direction of conductivity
+        "conductivity_zx",                              # [37]: zx direction of conductivity
+        "dos_energy",                                   # [38]: energy list of DOS
+        "total_dos",                                    # [39]: total DOS
+        "integrated_dos"                                # [40]: integrated DOS
+    ])})
