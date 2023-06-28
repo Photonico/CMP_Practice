@@ -1,4 +1,4 @@
-#### Declarations of process functions for Optical Propertises
+#### Declarations of process functions for Optical Properties
 # pylint: disable = C0103, C0114, C0116, C0301, R0914
 
 ### Necessary packages invoking
@@ -9,8 +9,8 @@ import numpy as np
 hbar = 4.135667662e-15
 c_vacuum = 2.99792458e8
 
-### Extract optical propertises from vasprun.xml
-def extract_opt_vectorized(file_path):
+### Extract optical properties from vasprun.xml
+def extract_optical_properties(file_path):
     ## Analysis vasprun.xml file
     tree = ET.parse(file_path)
     root = tree.getroot()
@@ -103,46 +103,46 @@ def extract_opt_vectorized(file_path):
         dos_data["total_dos"].append(values[1])
         dos_data["integrated_dos"].append(values[2])
 
-    return (nedos,                                      #  [0]: NEDOS
-            data["e_energy_imag_col"],                  #  [1]: imaginary part of energy of Density-Density
-            data["e_xx_imag_col"],                      #  [2]: imaginary part of xx direction of Density-Density
-            data["e_yy_imag_col"],                      #  [3]: imaginary part of yy direction of Density-Density
-            data["e_zz_imag_col"],                      #  [4]: imaginary part of zz direction of Density-Density
-            data["e_xy_imag_col"],                      #  [5]: imaginary part of xy direction of Density-Density
-            data["e_yz_imag_col"],                      #  [6]: imaginary part of yz direction of Density-Density
-            data["e_zx_imag_col"],                      #  [7]: imaginary part of zx direction of Density-Density
-            data["c_energy_imag_col"],                  #  [8]: imaginary part of energy of Current-Current
-            data["c_xx_imag_col"],                      #  [9]: imaginary part of xx direction of Current-Current
-            data["c_yy_imag_col"],                      # [10]: imaginary part of yy direction of Current-Current
-            data["c_zz_imag_col"],                      # [11]: imaginary part of zz direction of Current-Current
-            data["c_xy_imag_col"],                      # [12]: imaginary part of xy direction of Current-Current
-            data["c_yz_imag_col"],                      # [13]: imaginary part of yz direction of Current-Current
-            data["c_zx_imag_col"],                      # [14]: imaginary part of zx direction of Current-Current
-            data["e_energy_real_col"],                  # [15]: real part of energy of Density-Density
-            data["e_xx_real_col"],                      # [16]: real part of xx direction of Density-Density
-            data["e_yy_real_col"],                      # [17]: real part of yy direction of Density-Density
-            data["e_zz_real_col"],                      # [18]: real part of zz direction of Density-Density
-            data["e_xy_real_col"],                      # [19]: real part of xy direction of Density-Density
-            data["e_yz_real_col"],                      # [20]: real part of yz direction of Density-Density
-            data["e_zx_real_col"],                      # [21]: real part of zx direction of Density-Density
-            data["c_energy_real_col"],                  # [22]: real part of energy of Current-Current
-            data["c_xx_real_col"],                      # [23]: real part of xx direction of Current-Current
-            data["c_yy_real_col"],                      # [24]: real part of yy direction of Current-Current
-            data["c_zz_real_col"],                      # [25]: real part of zz direction of Current-Current
-            data["c_xy_real_col"],                      # [26]: real part of xy direction of Current-Current
-            data["c_yz_real_col"],                      # [27]: real part of yz direction of Current-Current
-            data["c_zx_real_col"],                      # [28]: real part of zx direction of Current-Current
-            data_label,                                 # [29]: data label
-            fermi_energy,                               # [30]: system Fermi energy
-            conductivity_data["conductivity_energy"],   # [31]: energy of conductivity
-            conductivity_data["conductivity_xx"],       # [32]: xx direction of conductivity
-            conductivity_data["conductivity_yy"],       # [33]: yy direction of conductivity
-            conductivity_data["conductivity_zz"],       # [34]: zz direction of conductivity
-            conductivity_data["conductivity_xy"],       # [35]: xy direction of conductivity
-            conductivity_data["conductivity_yz"],       # [36]: yz direction of conductivity
-            conductivity_data["conductivity_zx"],       # [37]: zx direction of conductivity
-            dos_data["dos_energy"],                     # [38]: energy list of DOS
-            dos_data["total_dos"],                      # [39]: total DOS
-            dos_data["integrated_dos"],                 # [40]: integrated DOS
-            )
-
+    return {
+        "nedos": nedos,                                                     # [0]: NEDOS
+        "density_energy_imag": data["e_energy_imag_col"],                   # [1]: Imaginary part of energy of Density-Density
+        "density_xx_imag": data["e_xx_imag_col"],                           # [2]: Imaginary part of xx direction of Density-Density
+        "density_yy_imag": data["e_yy_imag_col"],                           # [3]: Imaginary part of yy direction of Density-Density
+        "density_zz_imag": data["e_zz_imag_col"],                           # [4]: Imaginary part of zz direction of Density-Density
+        "density_xy_imag": data["e_xy_imag_col"],                           # [5]: Imaginary part of xy direction of Density-Density
+        "density_yz_imag": data["e_yz_imag_col"],                           # [6]: Imaginary part of yz direction of Density-Density
+        "density_zx_imag": data["e_zx_imag_col"],                           # [7]: Imaginary part of zx direction of Density-Density
+        "current_energy_imag": data["c_energy_imag_col"],                   # [8]: Imaginary part of energy of Current-Current
+        "current_xx_imag": data["c_xx_imag_col"],                           # [9]: Imaginary part of xx direction of Current-Current
+        "current_yy_imag": data["c_yy_imag_col"],                           # [10]: Imaginary part of yy direction of Current-Current
+        "current_zz_imag": data["c_zz_imag_col"],                           # [11]: Imaginary part of zz direction of Current-Current
+        "current_xy_imag": data["c_xy_imag_col"],                           # [12]: Imaginary part of xy direction of Current-Current
+        "current_yz_imag": data["c_yz_imag_col"],                           # [13]: Imaginary part of yz direction of Current-Current
+        "current_zx_imag": data["c_zx_imag_col"],                           # [14]: Imaginary part of zx direction of Current-Current
+        "density_energy_real": data["e_energy_real_col"],                   # [15]: Real part of energy of Density-Density
+        "density_xx_real": data["e_xx_real_col"],                           # [16]: Real part of xx direction of Density-Density
+        "density_yy_real": data["e_yy_real_col"],                           # [17]: Real part of yy direction of Density-Density
+        "density_zz_real": data["e_zz_real_col"],                           # [18]: Real part of zz direction of Density-Density
+        "density_xy_real": data["e_xy_real_col"],                           # [19]: Real part of xy direction of Density-Density
+        "density_yz_real": data["e_yz_real_col"],                           # [20]: Real part of yz direction of Density-Density
+        "density_zx_real": data["e_zx_real_col"],                           # [21]: Real part of zx direction of Density-Density
+        "current_energy_real": data["c_energy_real_col"],                   # [22]: Real part of energy of Current-Current
+        "current_xx_real": data["c_xx_real_col"],                           # [23]: Real part of xx direction of Current-Current
+        "current_yy_real": data["c_yy_real_col"],                           # [24]: Real part of yy direction of Current-Current
+        "current_zz_real": data["c_zz_real_col"],                           # [25]: Real part of zz direction of Current-Current
+        "current_xy_real": data["c_xy_real_col"],                           # [26]: Real part of xy direction of Current-Current
+        "current_yz_real": data["c_yz_real_col"],                           # [27]: Real part of yz direction of Current-Current
+        "current_zx_real": data["c_zx_real_col"],                           # [28]: Real part of zx direction of Current-Current
+        "data_label": data_label,                                           # [29]: Data label
+        "fermi_energy": fermi_energy,                                       # [30]: System Fermi energy
+        "conductivity_energy": conductivity_data["conductivity_energy"],    # [31]: Energy of conductivity
+        "conductivity_xx": conductivity_data["conductivity_xx"],            # [32]: xx direction of conductivity
+        "conductivity_yy": conductivity_data["conductivity_yy"],            # [33]: yy direction of conductivity
+        "conductivity_zz": conductivity_data["conductivity_zz"],            # [34]: zz direction of conductivity
+        "conductivity_xy": conductivity_data["conductivity_xy"],            # [35]: xy direction of conductivity
+        "conductivity_yz": conductivity_data["conductivity_yz"],            # [36]: yz direction of conductivity
+        "conductivity_zx": conductivity_data["conductivity_zx"],            # [37]: zx direction of conductivity
+        "dos_energy": dos_data["dos_energy"],                               # [38]: Energy list of DOS
+        "total_dos": dos_data["total_dos"],                                 # [39]: Total DOS
+        "integrated_dos": dos_data["integrated_dos"],                       # [40]: Integrated DOS
+    }

@@ -1,14 +1,18 @@
-##### Data Process
+#### Data Process for Optical Propertises
 # pylint: disable = C0103, C0114, C0116, C0301, R0914
 
 from optical_properties import extract_opt_vectorized
 
-def process_optical_properties(opt_file_name):
+def optical_properties_process(opt_file_name):
     opt_file_path = f"{opt_file_name}/vasprun.xml"
     results = extract_opt_vectorized(opt_file_path)
 
-    globals().update({f"{name}_{opt_file_name.split('_')[-1]}": results[i] for i, name in enumerate([
-        "nedos",                                       # [0]: NEDOS
+    # Extract the nbands value from the file name
+    # nbands = opt_file_name.split('_')[-1]
+
+    # Create the dictionary with keys based on the nbands value
+    data_dict = {f"{name}": results[i] for i, name in enumerate([
+        "nedos",                                        # [0]: NEDOS
         "density_imag_energy",                          # [1]: imaginary part of energy of Density-Density
         "density_imag_xx",                              # [2]: imaginary part of xx direction of Density-Density
         "density_imag_yy",                              # [3]: imaginary part of yy direction of Density-Density
@@ -49,4 +53,5 @@ def process_optical_properties(opt_file_name):
         "dos_energy",                                   # [38]: energy list of DOS
         "total_dos",                                    # [39]: total DOS
         "integrated_dos"                                # [40]: integrated DOS
-    ])})
+    ])}
+    return data_dict
