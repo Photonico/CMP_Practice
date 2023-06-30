@@ -1,0 +1,57 @@
+for a in `seq 5.05 0.02 5.25`
+do
+rm WAVECAR
+echo "a = $a"
+a1=$(echo "0.866025404*$a"|bc)
+echo "a1 = $a1"
+a2=$(echo "0.5*$a"|bc)
+echo "a2 = $a2"
+a3=$(echo "-1*$a1"|bc)
+
+cat >INCAR << end
+SYSTEM = BC3-a
+LCHARG = .FALSE.
+LWAVE = .FALSE.
+ENCUT = 500
+LREAL = .FALSE.
+GGA = PE
+ISMEAR = 0
+SIGMA = 0.1
+ISPIN = 1
+PREC = Normal
+ALGO = Normal
+EDIFF = 1E-6
+end
+
+cat >KPOINTS << kend
+k-points
+0
+G
+12 12 1
+0 0 0
+kend
+
+cat >POSCAR << !
+BC3
+1.0
+$a1   $a2   0.00000
+-$a1  $a2   0.00000
+0.000000   0.00000   15.00000
+ B  C
+ 2  6
+Direct
+   0.333333    0.666666    0.250000 
+   0.666666    0.333333    0.250000 
+   0.166666    0.333333    0.250000 
+   0.333333    0.166666    0.250000 
+   0.166666    0.833333    0.250000 
+   0.833333    0.166666    0.250000 
+   0.666666    0.833333    0.250000 
+   0.833333    0.666666    0.250000 
+!
+
+mpirun -np 12 ~/VASP544/bin/vasp_std > vasp.out
+#E=`tail -1 OSZICAR`
+E=`grep 'free  energy' OUTCAR | awk '{print $5}'`
+echo $a $E >> LATTICE.dat
+done
