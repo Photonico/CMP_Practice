@@ -43,5 +43,6 @@ def plot_charge_density_response(opt_data, NBANDS):
 
     for ax in axs:
         ax.set_ylim(y_range_min, y_range_max)
-        ax.set_xlim(x_range_left, x_range_right)
+        # ax.set_xlim(x_range_left, x_range_right)
+        ax.set_xlim(0, 15)
     plt.show()
