@@ -1181,3 +1181,19 @@
    </energy>
   </scstep>
   <scstep>
+   <time name="total">  300.99  301.01</time>
+   <energy>
+    <i name="e_fr_energy">   -123.47498216 </i>
+    <i name="e_wo_entrp">   -123.47491236 </i>
+    <i name="e_0_energy">   -123.47494726 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="total">  299.99  300.01</time>
+   <energy>
+    <i name="e_fr_energy">   -123.47544809 </i>
+    <i name="e_wo_entrp">   -123.47537828 </i>
+    <i name="e_0_energy">   -123.47541319 </i>
+   </energy>
+  </scstep>
+  <scstep>

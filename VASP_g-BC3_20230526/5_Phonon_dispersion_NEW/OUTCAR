@@ -5564,3 +5564,71 @@ The dynamic configuration has the point symmetry C_1 .
    POT+DIJ:  cpu time    3.8540: real time    3.8543
     HAMIL1:  cpu time   33.1776: real time   33.1803
     LRDIAG:  cpu time    3.1515: real time    3.1517
+    LRDIIS:  cpu time  248.4981: real time  248.5142
+    LRDIAG:  cpu time    3.0304: real time    3.0308
+    MIXING:  cpu time    0.0184: real time    0.0184
+    --------------------------------------------
+      LOOP:  cpu time  300.9877: real time  301.0081
+
+ Broyden mixing:
+  rms(total) = 0.26307E-02    rms(broyden)= 0.26302E-02
+  rms(prec ) = 0.47831E-02
+  weight for this iteration     100.00
+
+ eigenvalues of (default mixing * dielectric matrix)
+  average eigenvalue GAMMA=   1.6405
+  2.7205  2.2938  1.7597  0.9675  1.0507  1.0507
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  -Hartree energ DENC   =        -0.01474421
+  -V(xc)+E(xc)   XCENC  =         0.00529420
+  PAW double counting   =         0.05588692       -0.05587918
+  entropy T*S    EENTRO =        -0.00000003
+  eigenvalues    EBANDS =        -0.03994769
+  ---------------------------------------------------
+  free energy    TOTEN  =        -0.04938999 eV
+
+  energy without entropy =       -0.04938996
+
+
+----------------------------------------- Iteration    5(   9)  ---------------------------------------
+
+
+   POT+DIJ:  cpu time    3.8637: real time    3.8640
+    HAMIL1:  cpu time   32.4290: real time   32.4317
+    LRDIAG:  cpu time    3.1465: real time    3.1467
+    LRDIIS:  cpu time  248.2088: real time  248.2250
+    LRDIAG:  cpu time    3.0362: real time    3.0366
+    MIXING:  cpu time    0.0190: real time    0.0190
+    --------------------------------------------
+      LOOP:  cpu time  299.9872: real time  300.0076
+
+ Broyden mixing:
+  rms(total) = 0.11199E-02    rms(broyden)= 0.11197E-02
+  rms(prec ) = 0.24989E-02
+  weight for this iteration     100.00
+
+ eigenvalues of (default mixing * dielectric matrix)
+  average eigenvalue GAMMA=   1.6265
+  2.9462  2.4727  1.8817  1.1767  0.9963  0.9963  0.9158
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  -Hartree energ DENC   =        -0.01474184
+  -V(xc)+E(xc)   XCENC  =         0.00529231
+  PAW double counting   =         0.05585683       -0.05584911
+  entropy T*S    EENTRO =        -0.00000003
+  eigenvalues    EBANDS =        -0.03994833
+  ---------------------------------------------------
+  free energy    TOTEN  =        -0.04939018 eV
+
+  energy without entropy =       -0.04939015
+
+
+----------------------------------------- Iteration    5(  10)  ---------------------------------------
+
+
+   POT+DIJ:  cpu time    3.8609: real time    3.8612
+    HAMIL1:  cpu time   33.1388: real time   33.1415
+    LRDIAG:  cpu time    3.1585: real time    3.1587
