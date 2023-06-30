@@ -5530,3 +5530,37 @@ The dynamic configuration has the point symmetry C_1 .
    POT+DIJ:  cpu time    3.8459: real time    3.8462
     HAMIL1:  cpu time   33.2422: real time   33.2450
     LRDIAG:  cpu time    3.1608: real time    3.1610
+    LRDIIS:  cpu time  207.2542: real time  207.2678
+    LRDIAG:  cpu time    3.0455: real time    3.0457
+    MIXING:  cpu time    0.0182: real time    0.0182
+    --------------------------------------------
+      LOOP:  cpu time  259.8395: real time  259.8572
+
+ Broyden mixing:
+  rms(total) = 0.49916E-02    rms(broyden)= 0.49896E-02
+  rms(prec ) = 0.75641E-02
+  weight for this iteration     100.00
+
+ eigenvalues of (default mixing * dielectric matrix)
+  average eigenvalue GAMMA=   1.5492
+  2.6182  1.9136  0.9793  0.9793  1.2559
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  -Hartree energ DENC   =        -0.01474854
+  -V(xc)+E(xc)   XCENC  =         0.00529290
+  PAW double counting   =         0.05564848       -0.05564075
+  entropy T*S    EENTRO =        -0.00000003
+  eigenvalues    EBANDS =        -0.03994050
+  ---------------------------------------------------
+  free energy    TOTEN  =        -0.04938844 eV
+
+  energy without entropy =       -0.04938841
+
+
+----------------------------------------- Iteration    5(   8)  ---------------------------------------
+
+
+   POT+DIJ:  cpu time    3.8540: real time    3.8543
+    HAMIL1:  cpu time   33.1776: real time   33.1803
+    LRDIAG:  cpu time    3.1515: real time    3.1517
