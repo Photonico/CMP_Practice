@@ -145,5 +145,5 @@ def extract_optical_properties(file_path):
         "dos_energy": dos_data["dos_energy"],                               # [38]: Energy list of DOS
         "total_dos": dos_data["total_dos"],                                 # [39]: Total DOS
         "integrated_dos": dos_data["integrated_dos"],                       # [40]: Integrated DOS
-        
+
     }
