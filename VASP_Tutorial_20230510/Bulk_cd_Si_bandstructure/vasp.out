@@ -1,0 +1,48 @@
+ running on   12 total cores
+ distrk:  each k-point on   12 cores,    1 groups
+ distr:  one band on    1 cores,   12 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
+  
+ POSCAR found :  1 types and       2 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ WARNING: chargedensity file is incomplete
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10
+ ERROR: charge density could not be read from file CHGCAR for ICHARG>10

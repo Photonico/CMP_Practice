@@ -1,0 +1,49 @@
+#### Calculation Information
+# Created by Lu Niu, LukeNiu@outlook.com, Apr 19, 2023
+
+## Project name
+SYSTEM = cd Si
+# Free energy for different lattice parameters; Fit to some equation of states to obtain the equilibrium volume.
+# Perform a static (NSW=0, IBRION=-1) self consistent calculation for the DOS (the DOS is found in the DOSCAR file.
+# For large system, converge with a small number of k points, and ncrease the number of k points for the DOS and set ICHARG=11 (charge density from the last self-consistent run). ICHARG=11 treats each k point independently and keeps the charge density and the potential fixed.
+# Read CHGCAR from previous run. To copy the self-consistent charge density of example fcc_Si to your current working directory. You must do this otherwise VASP can not read the CHGCAR and will terminate.
+# The smearing of the k points is set to the tetrahedron method with Blöchl corrections (ISMEAR=-5 to fi the problem
+
+## Start parameters for this Run
+ISTART = 0
+# ICHARG = 11
+
+## Electronic optimization (Low, Medium, High, Accurate)
+PREC = Accurate
+# Defaults from POTCAR
+ENCUT = 240
+# Alorithm for electron optimization, can be also FAST or ALL
+# ALGO  =  Normal
+# of ELM steps, sometimes default is too small
+# NELM = 200
+# Stopping-criterion for ELM
+EDIFF = 1E-6
+# Stopping-criterion for IOM (all forces smaller 1E-2)
+EDIFFG = -1E-6
+# Broadening and DOS related values
+# SIGMA = 0.1
+ISMEAR = -5
+# Stress tensor
+ISIF = 3
+# LORBIT = 11
+
+## Ionic relaxation
+# Number of steps for IOM   
+NSW = 15
+# CG for ions, often 1 (RMM-DISS) is faster    
+IBRION = 2
+# Step for ionic-motion (for MD in fs)
+# POTIM = .1
+
+# Performance optimization
+# The number of groups made, each group working on one set of k-points 
+# KPAR = 1
+# How many cores handling one orbital
+# NCORE = 4
+# Real space projection; slightly less accurate but faster 
+# LREAL = Auto

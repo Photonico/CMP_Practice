@@ -1,0 +1,42 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Loading compiler-rt version 2021.4.0
+Loading mpi version 2021.4.0
+Loading mkl version 2021.4.0
+Loading tbb version 2021.4.0
+
+Loading mkl
+  Loading requirement: tbb
+a = 5.05
+a1 = 4.373428290
+a2 = 2.52
+a = 5.07
+a1 = 4.390748798
+a2 = 2.53
+a = 5.09
+a1 = 4.408069306
+a2 = 2.54
+a = 5.11
+a1 = 4.425389814
+a2 = 2.55
+a = 5.13
+a1 = 4.442710322
+a2 = 2.56
+a = 5.15
+a1 = 4.460030830
+a2 = 2.57
+a = 5.17
+a1 = 4.477351338
+a2 = 2.58
+a = 5.19
+a1 = 4.494671846
+a2 = 2.59
+a = 5.21
+a1 = 4.511992354
+a2 = 2.60
+a = 5.23
+a1 = 4.529312862
+a2 = 2.61
+a = 5.25
+a1 = 4.546633371
+a2 = 2.62

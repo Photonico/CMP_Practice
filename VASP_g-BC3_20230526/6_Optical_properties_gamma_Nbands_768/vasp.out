@@ -1,0 +1,64 @@
+ running on   12 total cores
+ distrk:  each k-point on   12 cores,    1 groups
+ distr:  one band on    1 cores,   12 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Mar 30 2023 15:39:25) complex          
+  
+ POSCAR found type information on POSCAR  B  C 
+ POSCAR found :  2 types and       8 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+  number of bands has changed, file:   132 present:   768
+  trying to continue reading WAVECAR, but it might fail
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ random initialization beyond band          133
+ the WAVECAR file was read successfully
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DIA:   1    -0.734406276876E+02   -0.73441E+02    0.00000E+00     0   0.000E+00    0.131E+01
+DIA:   2    -0.689990116279E+02    0.44416E+01    0.00000E+00     0   0.000E+00    0.749E+00
+DIA:   3    -0.673539403584E+02    0.16451E+01    0.00000E+00     0   0.000E+00    0.220E+00
+DIA:   4    -0.672475733653E+02    0.10637E+00    0.00000E+00     0   0.000E+00    0.620E-01
+DIA:   5    -0.672204931872E+02    0.27080E-01    0.00000E+00     0   0.000E+00    0.236E-01
+DIA:   6    -0.672190796178E+02    0.14136E-02    0.00000E+00     0   0.000E+00    0.831E-02
+DIA:   7    -0.672229524064E+02   -0.38728E-02    0.00000E+00     0   0.000E+00    0.590E-02
+DIA:   8    -0.672270247686E+02   -0.40724E-02    0.00000E+00     0   0.000E+00    0.175E-02
+DIA:   9    -0.672277020310E+02   -0.67726E-03    0.00000E+00     0   0.000E+00    0.385E-03
+DIA:  10    -0.672277172443E+02   -0.15213E-04    0.00000E+00     0   0.000E+00    0.169E-03
+DIA:  11    -0.672277300854E+02   -0.12841E-04    0.00000E+00     0   0.000E+00    0.161E-04
+DIA:  12    -0.672277301644E+02   -0.78930E-07    0.00000E+00     0   0.000E+00    0.687E-05
+DIA:  13    -0.672277302449E+02   -0.80556E-07    0.00000E+00     0   0.000E+00    0.668E-06
+DIA:  14    -0.672277302471E+02   -0.21878E-08    0.00000E+00     0   0.000E+00
+   1 F= -.67227730E+02 E0= -.67227730E+02  d E =-.281691E-13
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

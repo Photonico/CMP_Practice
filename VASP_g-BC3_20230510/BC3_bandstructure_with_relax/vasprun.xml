@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<modeling>
+ <generator>
+  <i name="program" type="string">vasp </i>
+  <i name="version" type="string">5.4.4.18Apr17-6-g9f103f2a35  </i>
+  <i name="subversion" type="string">(build Mar 30 2023 15:39:25) complex            parallel </i>
+  <i name="platform" type="string">LinuxIFC </i>
+  <i name="date" type="string">2023 05 25 </i>
+  <i name="time" type="string">15:43:30 </i>
+ </generator>
+ <incar>
+  <i type="string" name="SYSTEM"> BC3 bandstructure</i>
+  <i type="int" name="ISTART">     0</i>
+  <i type="string" name="PREC">accurate</i>
+  <i type="int" name="ICHARG">    11</i>
+  <i type="int" name="IBRION">     2</i>
+  <i name="EDIFF">      0.00000100</i>
+  <i name="EDIFFG">     -0.00000100</i>
+  <i type="int" name="NSW">    40</i>
+  <i name="ENCUT">    450.00000000</i>
+  <i type="int" name="ISMEAR">     0</i>
+  <i name="SIGMA">      0.20000000</i>
+  <i type="int" name="LORBIT">    11</i>
+  <v type="int" name="KPOINT_BSE">    -1     0     0     0</v>
+ </incar>
+ <structure name="primitive_cell" >
+  <crystal>
+   <varray name="basis" >
+    <v>       5.17400000       0.00000000       0.00000000 </v>
+    <v>       2.58700000       4.48100000       0.00000000 </v>
+    <v>       0.00000000       0.00000000      20.00000000 </v>
+   </varray>
+   <i name="volume">    463.69388000 </i>
+   <varray name="rec_basis" >
+    <v>       0.19327406      -0.11158224       0.00000000 </v>
+    <v>       0.00000000       0.22316447       0.00000000 </v>
+    <v>       0.00000000       0.00000000       0.05000000 </v>
+   </varray>
+  </crystal>
+  <varray name="positions" >
+   <v>       0.17457326       0.17462620       0.00000000 </v>
+   <v>       0.00000000       0.00000000       0.00000000 </v>
+   <v>      -0.47622729       0.00000000       0.00000000 </v>
+   <v>      -0.00005294      -0.47612140       0.00000000 </v>
+   <v>      -0.31744862       0.15866994       0.00000000 </v>
+   <v>      -0.31750156      -0.31745146       0.00000000 </v>
+   <v>       0.15872573      -0.31745146       0.00000000 </v>
+   <v>      -0.49207481      -0.49207766       0.00000000 </v>
+  </varray>
+ </structure>
+ <varray name="primitive_index" >
+  <v type="int" >        1 </v>
+  <v type="int" >        3 </v>
+  <v type="int" >        4 </v>
+  <v type="int" >        6 </v>
+  <v type="int" >        5 </v>
+  <v type="int" >        8 </v>
+  <v type="int" >        7 </v>
+  <v type="int" >        2 </v>
+ </varray>
+ <kpoints>
+  <generation param="listgenerated">
+   <i name="divisions" type="int">      32 </i>
+   <v>      -0.33300000       0.66700000       0.00000000 </v>
+   <v>       0.00000000       0.00000000       0.00000000 </v>
+   <v>       0.50000000       0.00000000       0.00000000 </v>
+   <v>      -0.33300000       0.66700000       0.00000000 </v>
+  </generation>
+  <varray name="kpointlist" >
+   <v>      -0.33300000       0.66700000       0.00000000 </v>
+   <v>      -0.32225806       0.64548387       0.00000000 </v>
+   <v>      -0.31151613       0.62396774       0.00000000 </v>
+   <v>      -0.30077419       0.60245161       0.00000000 </v>
+   <v>      -0.29003226       0.58093548       0.00000000 </v>
+   <v>      -0.27929032       0.55941935       0.00000000 </v>
+   <v>      -0.26854839       0.53790323       0.00000000 </v>
+   <v>      -0.25780645       0.51638710       0.00000000 </v>
+   <v>      -0.24706452       0.49487097       0.00000000 </v>
+   <v>      -0.23632258       0.47335484       0.00000000 </v>
+   <v>      -0.22558065       0.45183871       0.00000000 </v>
+   <v>      -0.21483871       0.43032258       0.00000000 </v>
+   <v>      -0.20409677       0.40880645       0.00000000 </v>
+   <v>      -0.19335484       0.38729032       0.00000000 </v>
+   <v>      -0.18261290       0.36577419       0.00000000 </v>
+   <v>      -0.17187097       0.34425806       0.00000000 </v>
+   <v>      -0.16112903       0.32274194       0.00000000 </v>
+   <v>      -0.15038710       0.30122581       0.00000000 </v>
+   <v>      -0.13964516       0.27970968       0.00000000 </v>
+   <v>      -0.12890323       0.25819355       0.00000000 </v>
+   <v>      -0.11816129       0.23667742       0.00000000 </v>
+   <v>      -0.10741935       0.21516129       0.00000000 </v>
+   <v>      -0.09667742       0.19364516       0.00000000 </v>
+   <v>      -0.08593548       0.17212903       0.00000000 </v>
+   <v>      -0.07519355       0.15061290       0.00000000 </v>
+   <v>      -0.06445161       0.12909677       0.00000000 </v>
+   <v>      -0.05370968       0.10758065       0.00000000 </v>
+   <v>      -0.04296774       0.08606452       0.00000000 </v>
+   <v>      -0.03222581       0.06454839       0.00000000 </v>
+   <v>      -0.02148387       0.04303226       0.00000000 </v>
+   <v>      -0.01074194       0.02151613       0.00000000 </v>
+   <v>       0.00000000       0.00000000       0.00000000 </v>
+   <v>       0.00000000       0.00000000       0.00000000 </v>
+   <v>       0.01612903       0.00000000       0.00000000 </v>
+   <v>       0.03225806       0.00000000       0.00000000 </v>
+   <v>       0.04838710       0.00000000       0.00000000 </v>
+   <v>       0.06451613       0.00000000       0.00000000 </v>
+   <v>       0.08064516       0.00000000       0.00000000 </v>
+   <v>       0.09677419       0.00000000       0.00000000 </v>
+   <v>       0.11290323       0.00000000       0.00000000 </v>
+   <v>       0.12903226       0.00000000       0.00000000 </v>
+   <v>       0.14516129       0.00000000       0.00000000 </v>
+   <v>       0.16129032       0.00000000       0.00000000 </v>
+   <v>       0.17741935       0.00000000       0.00000000 </v>
+   <v>       0.19354839       0.00000000       0.00000000 </v>
+   <v>       0.20967742       0.00000000       0.00000000 </v>
+   <v>       0.22580645       0.00000000       0.00000000 </v>
+   <v>       0.24193548       0.00000000       0.00000000 </v>
+   <v>       0.25806452       0.00000000       0.00000000 </v>
+   <v>       0.27419355       0.00000000       0.00000000 </v>
+   <v>       0.29032258       0.00000000       0.00000000 </v>
+   <v>       0.30645161       0.00000000       0.00000000 </v>
+   <v>       0.32258065       0.00000000       0.00000000 </v>
+   <v>       0.33870968       0.00000000       0.00000000 </v>
+   <v>       0.35483871       0.00000000       0.00000000 </v>
+   <v>       0.37096774       0.00000000       0.00000000 </v>
+   <v>       0.38709677       0.00000000       0.00000000 </v>
+   <v>       0.40322581       0.00000000       0.00000000 </v>
+   <v>       0.41935484       0.00000000       0.00000000 </v>
+   <v>       0.43548387       0.00000000       0.00000000 </v>
+   <v>       0.45161290       0.00000000       0.00000000 </v>
+   <v>       0.46774194       0.00000000       0.00000000 </v>
+   <v>       0.48387097       0.00000000       0.00000000 </v>
+   <v>       0.50000000       0.00000000       0.00000000 </v>
+   <v>       0.50000000       0.00000000       0.00000000 </v>
+   <v>       0.47312903       0.02151613       0.00000000 </v>
+   <v>       0.44625806       0.04303226       0.00000000 </v>
+   <v>       0.41938710       0.06454839       0.00000000 </v>
+   <v>       0.39251613       0.08606452       0.00000000 </v>
+   <v>       0.36564516       0.10758065       0.00000000 </v>
+   <v>       0.33877419       0.12909677       0.00000000 </v>
+   <v>       0.31190323       0.15061290       0.00000000 </v>
+   <v>       0.28503226       0.17212903       0.00000000 </v>
+   <v>       0.25816129       0.19364516       0.00000000 </v>
+   <v>       0.23129032       0.21516129       0.00000000 </v>
+   <v>       0.20441935       0.23667742       0.00000000 </v>
+   <v>       0.17754839       0.25819355       0.00000000 </v>
+   <v>       0.15067742       0.27970968       0.00000000 </v>
+   <v>       0.12380645       0.30122581       0.00000000 </v>
+   <v>       0.09693548       0.32274194       0.00000000 </v>
+   <v>       0.07006452       0.34425806       0.00000000 </v>
+   <v>       0.04319355       0.36577419       0.00000000 </v>
+   <v>       0.01632258       0.38729032       0.00000000 </v>
+   <v>      -0.01054839       0.40880645       0.00000000 </v>
+   <v>      -0.03741935       0.43032258       0.00000000 </v>
+   <v>      -0.06429032       0.45183871       0.00000000 </v>
+   <v>      -0.09116129       0.47335484       0.00000000 </v>
+   <v>      -0.11803226       0.49487097       0.00000000 </v>
+   <v>      -0.14490323       0.51638710       0.00000000 </v>
+   <v>      -0.17177419       0.53790323       0.00000000 </v>
+   <v>      -0.19864516       0.55941935       0.00000000 </v>
+   <v>      -0.22551613       0.58093548       0.00000000 </v>
+   <v>      -0.25238710       0.60245161       0.00000000 </v>
+   <v>      -0.27925806       0.62396774       0.00000000 </v>
+   <v>      -0.30612903       0.64548387       0.00000000 </v>
+   <v>      -0.33300000       0.66700000       0.00000000 </v>
+  </varray>
+  <varray name="weights" >
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+   <v>       0.01041667 </v>
+  </varray>
+ </kpoints>
+ <parameters>
+  <separator name="general" >
+   <i type="string" name="SYSTEM">BC3 bandstructure</i>
+   <i type="logical" name="LCOMPAT"> F  </i>
+  </separator>
+  <separator name="electronic" >
+   <i type="string" name="PREC">accura</i>
+   <i name="ENMAX">    450.00000000</i>
+   <i name="ENAUG">    644.87300000</i>
+   <i name="EDIFF">      0.00000100</i>
+   <i type="int" name="IALGO">    38</i>
+   <i type="int" name="IWAVPR">    11</i>
+   <i type="int" name="NBANDS">    24</i>
+   <i name="NELECT">     30.00000000</i>
+   <i type="int" name="TURBO">     0</i>
+   <i type="int" name="IRESTART">     0</i>
+   <i type="int" name="NREBOOT">     0</i>
+   <i type="int" name="NMIN">     0</i>
+   <i name="EREF">      0.00000000</i>
+   <separator name="electronic smearing" >
+    <i type="int" name="ISMEAR">     0</i>
+    <i name="SIGMA">      0.20000000</i>
+    <i name="KSPACING">      0.50000000</i>
+    <i type="logical" name="KGAMMA"> T  </i>
+   </separator>
+   <separator name="electronic projectors" >
+    <i type="logical" name="LREAL"> F  </i>
+    <v name="ROPT">      0.00000000      0.00000000</v>
+    <i type="int" name="LMAXPAW">  -100</i>
+    <i type="int" name="LMAXMIX">     2</i>
+    <i type="logical" name="NLSPLINE"> F  </i>
+   </separator>
+   <separator name="electronic startup" >
+    <i type="int" name="ISTART">     0</i>
+    <i type="int" name="ICHARG">    11</i>
+    <i type="int" name="INIWAV">     1</i>
+   </separator>
+   <separator name="electronic spin" >
+    <i type="int" name="ISPIN">     1</i>
+    <i type="logical" name="LNONCOLLINEAR"> F  </i>
+    <v name="MAGMOM">      1.00000000      1.00000000      1.00000000      1.00000000      1.00000000      1.00000000      1.00000000      1.00000000</v>
+    <i name="NUPDOWN">     -1.00000000</i>
+    <i type="logical" name="LSORBIT"> F  </i>
+    <v name="SAXIS">      0.00000000      0.00000000      1.00000000</v>
+    <i type="logical" name="LSPIRAL"> F  </i>
+    <v name="QSPIRAL">      0.00000000      0.00000000      0.00000000</v>
+    <i type="logical" name="LZEROZ"> F  </i>
+   </separator>
+   <separator name="electronic exchange-correlation" >
+    <i type="logical" name="LASPH"> F  </i>
+    <i type="logical" name="LMETAGGA"> F  </i>
+   </separator>
+   <separator name="electronic convergence" >
+    <i type="int" name="NELM">    60</i>
+    <i type="int" name="NELMDL">    -5</i>
+    <i type="int" name="NELMIN">     2</i>
+    <i name="ENINI">    450.00000000</i>
+    <separator name="electronic convergence detail" >
+     <i type="logical" name="LDIAG"> T  </i>
+     <i type="logical" name="LSUBROT"> F  </i>
+     <i name="WEIMIN">      0.00100000</i>
+     <i name="EBREAK">      0.00000000</i>
+     <i name="DEPER">      0.30000000</i>
+     <i type="int" name="NRMM">     4</i>
+     <i name="TIME">      0.40000000</i>
+    </separator>
+   </separator>
+   <separator name="electronic mixer" >
+    <i name="AMIX">      0.40000000</i>
+    <i name="BMIX">      1.00000000</i>
+    <i name="AMIN">      0.10000000</i>
+    <i name="AMIX_MAG">      1.60000000</i>
+    <i name="BMIX_MAG">      1.00000000</i>
+    <separator name="electronic mixer details" >
+     <i type="int" name="IMIX">     4</i>
+     <i type="logical" name="MIXFIRST"> F  </i>
+     <i type="int" name="MAXMIX">   -45</i>
+     <i name="WC">    100.00000000</i>
+     <i type="int" name="INIMIX">     1</i>
+     <i type="int" name="MIXPRE">     1</i>
+     <i type="int" name="MREMOVE">     5</i>
+    </separator>
+   </separator>
+   <separator name="electronic dipolcorrection" >
+    <i type="logical" name="LDIPOL"> F  </i>
+    <i type="logical" name="LMONO"> F  </i>
+    <i type="int" name="IDIPOL">     0</i>
+    <i name="EPSILON">      1.00000000</i>
+    <v name="DIPOL">   -100.00000000   -100.00000000   -100.00000000</v>
+    <i name="EFIELD">      0.00000000</i>
+   </separator>
+  </separator>
+  <separator name="grids" >
+   <i type="int" name="NGX">    36</i>
+   <i type="int" name="NGY">    36</i>
+   <i type="int" name="NGZ">   140</i>
+   <i type="int" name="NGXF">    72</i>
+   <i type="int" name="NGYF">    72</i>
+   <i type="int" name="NGZF">   280</i>
+   <i type="logical" name="ADDGRID"> F  </i>
+  </separator>
+  <separator name="ionic" >
+   <i type="int" name="NSW">    40</i>
+   <i type="int" name="IBRION">     2</i>
+   <i type="int" name="MDALGO">     0</i>
+   <i type="int" name="ISIF">     2</i>
+   <i name="PSTRESS">      0.00000000</i>
+   <i name="EDIFFG">     -0.00000100</i>
+   <i type="int" name="NFREE">     1</i>
+   <i name="POTIM">      0.50000000</i>
+   <i name="SMASS">     -3.00000000</i>
+   <i name="SCALEE">      1.00000000</i>
+  </separator>
+  <separator name="ionic md" >
+   <i name="TEBEG">      0.00010000</i>
+   <i name="TEEND">      0.00010000</i>
+   <i type="int" name="NBLOCK">     1</i>
+   <i type="int" name="KBLOCK">    40</i>
+   <i type="int" name="NPACO">   256</i>
+   <i name="APACO">     16.00000000</i>
+  </separator>
+  <separator name="symmetry" >
+   <i type="int" name="ISYM">     2</i>
+   <i name="SYMPREC">      0.00001000</i>
+  </separator>
+  <separator name="dos" >
+   <i type="int" name="LORBIT">    11</i>
+   <v name="RWIGS">     -1.00000000     -1.00000000</v>
+   <i type="int" name="NEDOS">   301</i>
+   <i name="EMIN">     10.00000000</i>
+   <i name="EMAX">    -10.00000000</i>
+   <i name="EFERMI">      0.00000000</i>
+  </separator>
+  <separator name="writing" >
+   <i type="int" name="NWRITE">     2</i>
+   <i type="logical" name="LWAVE"> T  </i>
+   <i type="logical" name="LDOWNSAMPLE"> F  </i>
+   <i type="logical" name="LCHARG"> T  </i>
+   <i type="logical" name="LPARD"> F  </i>
+   <i type="logical" name="LVTOT"> F  </i>
+   <i type="logical" name="LVHAR"> F  </i>
+   <i type="logical" name="LELF"> F  </i>
+   <i type="logical" name="LOPTICS"> F  </i>
+   <v name="STM">      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000</v>
+  </separator>
+  <separator name="performance" >
+   <i type="int" name="NPAR">    12</i>
+   <i type="int" name="NSIM">     4</i>
+   <i type="int" name="NBLK">    -1</i>
+   <i type="logical" name="LPLANE"> T  </i>
+   <i type="logical" name="LSCALAPACK"> T  </i>
+   <i type="logical" name="LSCAAWARE"> F  </i>
+   <i type="logical" name="LSCALU"> F  </i>
+   <i type="logical" name="LASYNC"> F  </i>
+   <i type="logical" name="LORBITALREAL"> F  </i>
+  </separator>
+  <separator name="miscellaneous" >
+   <i type="int" name="IDIOT">     3</i>
+   <i type="int" name="ISPECIAL">     0</i>
+   <i type="logical" name="LMUSIC"> F  </i>
+   <v name="POMASS">     10.81100000     12.01100000</v>
+   <v name="DARWINR">      0.00000000      0.00000000</v>
+   <v name="DARWINV">      1.00000000      1.00000000</v>
+   <i type="logical" name="LCORR"> T  </i>
+  </separator>
+  <i type="logical" name="GGA_COMPAT"> T  </i>
+  <i type="logical" name="LBERRY"> F  </i>
+  <i type="int" name="ICORELEVEL">     0</i>
+  <i type="logical" name="LDAU"> F  </i>
+  <i type="int" name="I_CONSTRAINED_M">     0</i>
+  <separator name="electronic exchange-correlation" >
+   <i type="string" name="GGA">--</i>
+   <i type="int" name="VOSKOWN">     0</i>
+   <i type="logical" name="LHFCALC"> F  </i>
+   <i type="string" name="PRECFOCK"></i>
+   <i type="logical" name="LSYMGRAD"> F  </i>
+   <i type="logical" name="LHFONE"> F  </i>
+   <i type="logical" name="LRHFCALC"> F  </i>
+   <i type="logical" name="LTHOMAS"> F  </i>
+   <i type="logical" name="LMODELHF"> F  </i>
+   <i name="ENCUT4O">     -1.00000000</i>
+   <i type="int" name="EXXOEP">     0</i>
+   <i type="int" name="FOURORBIT">     0</i>
+   <i name="AEXX">      0.00000000</i>
+   <i name="HFALPHA">      0.00000000</i>
+   <i name="MCALPHA">      0.00000000</i>
+   <i name="ALDAX">      1.00000000</i>
+   <i name="AGGAX">      1.00000000</i>
+   <i name="ALDAC">      1.00000000</i>
+   <i name="AGGAC">      1.00000000</i>
+   <i type="int" name="NKREDX">     1</i>
+   <i type="int" name="NKREDY">     1</i>
+   <i type="int" name="NKREDZ">     1</i>
+   <i type="logical" name="SHIFTRED"> F  </i>
+   <i type="logical" name="ODDONLY"> F  </i>
+   <i type="logical" name="EVENONLY"> F  </i>
+   <i type="int" name="LMAXFOCK">     0</i>
+   <i type="int" name="NMAXFOCKAE">     0</i>
+   <i type="logical" name="LFOCKAEDFT"> F  </i>
+   <i name="HFSCREEN">      0.00000000</i>
+   <i name="HFSCREENC">      0.00000000</i>
+   <i type="int" name="NBANDSGWLOW">     0</i>
+  </separator>
+  <separator name="vdW DFT" >
+   <i type="logical" name="LUSE_VDW"> F  </i>
+   <i name="Zab_VDW">     -0.84910000</i>
+   <i name="PARAM1">      0.12340000</i>
+   <i name="PARAM2">      1.00000000</i>
+   <i name="PARAM3">      0.00000000</i>
+  </separator>
+  <separator name="model GW" >
+   <i type="int" name="MODEL_GW">     0</i>
+   <i name="MODEL_EPS0">     34.77704100</i>
+   <i name="MODEL_ALPHA">      1.00000000</i>
+  </separator>
+  <separator name="linear response parameters" >
+   <i type="logical" name="LEPSILON"> F  </i>
+   <i type="logical" name="LRPA"> F  </i>
+   <i type="logical" name="LNABLA"> F  </i>
+   <i type="logical" name="LVEL"> F  </i>
+   <i type="int" name="KINTER">     0</i>
+   <i name="CSHIFT">      0.10000000</i>
+   <i name="OMEGAMAX">     -1.00000000</i>
+   <i name="DEG_THRESHOLD">      0.00200000</i>
+   <i name="RTIME">     -0.10000000</i>
+   <i name="WPLASMAI">      0.00000000</i>
+   <v name="DFIELD">      0.00000000      0.00000000      0.00000000</v>
+   <v name="WPLASMA">      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000</v>
+  </separator>
+  <separator name="orbital magnetization" >
+   <i type="logical" name="NUCIND"> F  </i>
+   <v name="MAGPOS">      0.00000000      0.00000000      0.00000000</v>
+   <i type="logical" name="LNICSALL"> T  </i>
+   <i type="logical" name="ORBITALMAG"> F  </i>
+   <i type="logical" name="LMAGBLOCH"> F  </i>
+   <i type="logical" name="LCHIMAG"> F  </i>
+   <i type="logical" name="LGAUGE"> T  </i>
+   <i type="int" name="MAGATOM">     0</i>
+   <v name="MAGDIPOL">      0.00000000      0.00000000      0.00000000</v>
+   <v name="AVECCONST">      0.00000000      0.00000000      0.00000000</v>
+  </separator>
+  <separator name="response functions" >
+   <i type="logical" name="LADDER"> F  </i>
+   <i type="logical" name="LRPAFORCE"> F  </i>
+   <i type="logical" name="LFXC"> F  </i>
+   <i type="logical" name="LHARTREE"> T  </i>
+   <i type="int" name="IBSE">     0</i>
+   <v type="int" name="KPOINT">    -1     0     0     0</v>
+   <i type="logical" name="LTCTE"> F  </i>
+   <i type="logical" name="LTETE"> F  </i>
+   <i type="logical" name="LTRIPLET"> F  </i>
+   <i type="logical" name="LFXCEPS"> F  </i>
+   <i type="logical" name="LFXHEG"> F  </i>
+   <i type="int" name="NATURALO">     2</i>
+   <i type="logical" name="L2ORDER"> F  </i>
+   <i type="logical" name="LMP2LT"> F  </i>
+   <i type="logical" name="LUSEW"> F  </i>
+   <i name="ENCUTGW">     -2.00000000</i>
+   <i name="ENCUTGWSOFT">     -2.00000000</i>
+   <i name="ENCUTLF">     -1.00000000</i>
+   <i type="int" name="LMAXMP2">    -1</i>
+   <i name="SCISSOR">      0.00000000</i>
+   <i type="int" name="NOMEGA">     0</i>
+   <i type="int" name="NOMEGAR">     0</i>
+   <i type="int" name="NBANDSGW">    -1</i>
+   <i type="int" name="NBANDSO">    -1</i>
+   <i type="int" name="NBANDSV">    -1</i>
+   <i type="int" name="NELM">     1</i>
+   <i type="int" name="NELMHF">     1</i>
+   <i type="int" name="DIM">     3</i>
+   <i type="int" name="ANTIRES">     0</i>
+   <i name="OMEGAMAX">    -30.00000000</i>
+   <i name="OMEGAMIN">    -30.00000000</i>
+   <i name="OMEGATL">   -200.00000000</i>
+   <i type="int" name="OMEGAGRID">   140</i>
+   <i name="CSHIFT">     -0.10000000</i>
+   <i type="logical" name="SELFENERGY"> F  </i>
+   <i type="logical" name="LSPECTRAL"> F  </i>
+   <i type="logical" name="LSPECTRALGW"> F  </i>
+   <i type="logical" name="LSINGLES"> F  </i>
+   <i type="logical" name="LFERMIGW"> F  </i>
+   <i type="logical" name="ODDONLYGW"> F  </i>
+   <i type="logical" name="EVENONLYGW"> F  </i>
+   <i type="int" name="NKREDLFX">     1</i>
+   <i type="int" name="NKREDLFY">     1</i>
+   <i type="int" name="NKREDLFZ">     1</i>
+   <i type="int" name="MAXMEM">  2800</i>
+   <i type="int" name="TELESCOPE">     0</i>
+   <i type="int" name="TAUPAR">     1</i>
+   <i type="int" name="OMEGAPAR">    -1</i>
+   <i name="LAMBDA">      1.00000000</i>
+  </separator>
+  <separator name="External order field" >
+   <i name="OFIELD_KAPPA">      0.00000000</i>
+   <v name="OFIELD_K">      0.00000000      0.00000000      0.00000000</v>
+   <i name="OFIELD_Q6_NEAR">      0.00000000</i>
+   <i name="OFIELD_Q6_FAR">      0.00000000</i>
+   <i name="OFIELD_A">      0.00000000</i>
+  </separator>
+ </parameters>
+ <atominfo>
+  <atoms>       8 </atoms>
+  <types>       2 </types>
+  <array name="atoms" >
+   <dimension dim="1">ion</dimension>
+   <field type="string">element</field>
+   <field type="int">atomtype</field>
+   <set>
+    <rc><c>B </c><c>   1</c></rc>
+    <rc><c>B </c><c>   1</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+    <rc><c>C </c><c>   2</c></rc>
+   </set>
+  </array>
+  <array name="atomtypes" >
+   <dimension dim="1">type</dimension>
+   <field type="int">atomspertype</field>
+   <field type="string">element</field>
+   <field>mass</field>
+   <field>valence</field>
+   <field type="string">pseudopotential</field>
+   <set>
+    <rc><c>   2</c><c>B </c><c>     10.81100000</c><c>      3.00000000</c><c>  PAW_PBE B 06Sep2000                   </c></rc>
+    <rc><c>   6</c><c>C </c><c>     12.01100000</c><c>      4.00000000</c><c>  PAW_PBE C 08Apr2002                   </c></rc>
+   </set>
+  </array>
+ </atominfo>
+ <structure name="initialpos" >
+  <crystal>
+   <varray name="basis" >
+    <v>       5.17400000       0.00000000       0.00000000 </v>
+    <v>       2.58700000       4.48100000       0.00000000 </v>
+    <v>       0.00000000       0.00000000      20.00000000 </v>
+   </varray>
+   <i name="volume">    463.69388000 </i>
+   <varray name="rec_basis" >
+    <v>       0.19327406      -0.11158224       0.00000000 </v>
+    <v>       0.00000000       0.22316447       0.00000000 </v>
+    <v>       0.00000000       0.00000000       0.05000000 </v>
+   </varray>
+  </crystal>
+  <varray name="positions" >
+   <v>       0.17457326       0.17462620       0.00000000 </v>
+   <v>       0.50792519       0.50792234       0.00000000 </v>
+   <v>       0.00000000       0.00000000       0.00000000 </v>
+   <v>       0.52377271       0.00000000       0.00000000 </v>
+   <v>       0.68255138       0.15866994       0.00000000 </v>
+   <v>       0.99994706       0.52387860       0.00000000 </v>
+   <v>       0.15872573       0.68254854       0.00000000 </v>
+   <v>       0.68249844       0.68254854       0.00000000 </v>
+  </varray>
+ </structure>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.67   14.69</time>
+   <time name="total">   14.82   14.86</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4060.05404224 </i>
+    <i name="hartreedc">  -4938.58461270 </i>
+    <i name="XCdc">     96.01982328 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.06395915 </i>
+    <i name="bandstr">    -81.46229830 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    169.57906621 </i>
+    <i name="e_wo_entrp">    169.64302536 </i>
+    <i name="e_0_energy">    169.61104579 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   22.60   22.63</time>
+   <time name="total">   22.60   22.64</time>
+   <energy>
+    <i name="e_fr_energy">    -36.24897747 </i>
+    <i name="e_wo_entrp">    -36.20927852 </i>
+    <i name="e_0_energy">    -36.22912800 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   16.41   16.45</time>
+   <time name="total">   16.41   16.45</time>
+   <energy>
+    <i name="e_fr_energy">    -65.52860240 </i>
+    <i name="e_wo_entrp">    -65.52556540 </i>
+    <i name="e_0_energy">    -65.52708390 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   17.17   17.20</time>
+   <time name="total">   17.17   17.20</time>
+   <energy>
+    <i name="e_fr_energy">    -66.24519548 </i>
+    <i name="e_wo_entrp">    -66.24321959 </i>
+    <i name="e_0_energy">    -66.24420753 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   17.15   17.17</time>
+   <time name="total">   17.15   17.18</time>
+   <energy>
+    <i name="e_fr_energy">    -66.26305235 </i>
+    <i name="e_wo_entrp">    -66.26110741 </i>
+    <i name="e_0_energy">    -66.26207988 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   17.85   17.88</time>
+   <time name="total">   17.85   17.88</time>
+   <energy>
+    <i name="e_fr_energy">    -66.26377673 </i>
+    <i name="e_wo_entrp">    -66.26183308 </i>
+    <i name="e_0_energy">    -66.26280491 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.21   18.25</time>
+   <time name="total">   18.21   18.25</time>
+   <energy>
+    <i name="e_fr_energy">    -66.26379951 </i>
+    <i name="e_wo_entrp">    -66.26185587 </i>
+    <i name="e_0_energy">    -66.26282769 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   20.04   20.07</time>
+   <time name="total">   20.04   20.07</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4060.05404224 </i>
+    <i name="hartreedc">  -4938.58461270 </i>
+    <i name="XCdc">     96.01982328 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00194364 </i>
+    <i name="bandstr">   -317.36718045 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.26380043 </i>
+    <i name="e_wo_entrp">    -66.26185679 </i>
+    <i name="e_0_energy">    -66.26282861 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17457326       0.17462620       0.00000000 </v>
+    <v>       0.50792519       0.50792234       0.00000000 </v>
+    <v>       0.00000000       0.00000000       0.00000000 </v>
+    <v>       0.52377271       0.00000000       0.00000000 </v>
+    <v>       0.68255138       0.15866994       0.00000000 </v>
+    <v>       0.99994706       0.52387860       0.00000000 </v>
+    <v>       0.15872573       0.68254854       0.00000000 </v>
+    <v>       0.68249844       0.68254854       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000      -0.02350129       0.00000000 </v>
+   <v>       0.00000000       0.02350129       0.00000000 </v>
+   <v>      -0.40859541      -0.15523070       0.00000000 </v>
+   <v>       0.40859541      -0.15523070       0.00000000 </v>
+   <v>       0.00000000      -0.48773902       0.00000000 </v>
+   <v>       0.00000000       0.48773902      -0.00000000 </v>
+   <v>      -0.40859541       0.15523070       0.00000000 </v>
+   <v>       0.40859541       0.15523070       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       4.81795038      -0.00000000       0.00000000 </v>
+   <v>       0.00000000       5.42899442       0.00000000 </v>
+   <v>       0.00000000       0.00000000       4.87800105 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.26380043 </i>
+   <i name="e_wo_entrp">    -66.26282861 </i>
+   <i name="e_0_energy">     -0.00194364 </i>
+  </energy>
+  <time name="totalsc">  160.75  162.00</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.65   14.69</time>
+   <time name="total">   14.80   14.84</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4067.92546342 </i>
+    <i name="hartreedc">  -4944.05771208 </i>
+    <i name="XCdc">     96.14179525 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00068298 </i>
+    <i name="bandstr">   -319.86936141 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.24442696 </i>
+    <i name="e_wo_entrp">    -66.24374398 </i>
+    <i name="e_0_energy">    -66.24408547 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.55   18.60</time>
+   <time name="total">   18.56   18.60</time>
+   <energy>
+    <i name="e_fr_energy">    -66.25979838 </i>
+    <i name="e_wo_entrp">    -66.25911776 </i>
+    <i name="e_0_energy">    -66.25945807 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   17.12   17.16</time>
+   <time name="total">   17.12   17.16</time>
+   <energy>
+    <i name="e_fr_energy">    -66.26002051 </i>
+    <i name="e_wo_entrp">    -66.25933993 </i>
+    <i name="e_0_energy">    -66.25968022 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   20.91   20.97</time>
+   <time name="total">   20.91   20.97</time>
+   <energy>
+    <i name="e_fr_energy">    -66.26002858 </i>
+    <i name="e_wo_entrp">    -66.25934800 </i>
+    <i name="e_0_energy">    -66.25968829 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.31   18.35</time>
+   <time name="total">   18.31   18.36</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4067.92546342 </i>
+    <i name="hartreedc">  -4944.05771208 </i>
+    <i name="XCdc">     96.14179525 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00068057 </i>
+    <i name="bandstr">   -319.88496555 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.26002869 </i>
+    <i name="e_wo_entrp">    -66.25934812 </i>
+    <i name="e_0_energy">    -66.25968840 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17469976       0.17437318       0.00000000 </v>
+    <v>       0.50779868       0.50817535       0.00000000 </v>
+    <v>      -0.00297416      -0.00167122       0.00000000 </v>
+    <v>       0.52841809      -0.00167122       0.00000000 </v>
+    <v>       0.68517690       0.15341892       0.00000000 </v>
+    <v>       0.99732155       0.52912962      -0.00000000 </v>
+    <v>       0.15408035       0.68421976       0.00000000 </v>
+    <v>       0.68547260       0.68421976       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.09291583      -0.00000000 </v>
+   <v>       0.00000000      -0.09291583      -0.00000000 </v>
+   <v>       0.46245112      -0.01624261      -0.00000000 </v>
+   <v>      -0.46245112      -0.01624261      -0.00000000 </v>
+   <v>       0.00000000       0.65143665      -0.00000000 </v>
+   <v>       0.00000000      -0.65143665      -0.00000000 </v>
+   <v>       0.46245112       0.01624261      -0.00000000 </v>
+   <v>      -0.46245112       0.01624261       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>      14.07930173       0.00000000       0.00000000 </v>
+   <v>      -0.00000000      13.22422526       0.00000000 </v>
+   <v>       0.00000000       0.00000000      13.45774301 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.26002869 </i>
+   <i name="e_wo_entrp">    -66.25968840 </i>
+   <i name="e_0_energy">     -0.00068057 </i>
+  </energy>
+  <time name="totalsc">  104.50  104.84</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.64   14.67</time>
+   <time name="total">   14.78   14.82</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.57570876 </i>
+    <i name="hartreedc">  -4941.06410521 </i>
+    <i name="XCdc">     96.07498173 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00111946 </i>
+    <i name="bandstr">   -318.47531708 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27378042 </i>
+    <i name="e_wo_entrp">    -66.27266097 </i>
+    <i name="e_0_energy">    -66.27322069 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.99   19.04</time>
+   <time name="total">   18.99   19.04</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27797918 </i>
+    <i name="e_wo_entrp">    -66.27686088 </i>
+    <i name="e_0_energy">    -66.27742003 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.50   18.54</time>
+   <time name="total">   18.50   18.54</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27803343 </i>
+    <i name="e_wo_entrp">    -66.27691515 </i>
+    <i name="e_0_energy">    -66.27747429 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   19.84   19.88</time>
+   <time name="total">   19.84   19.88</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.57570876 </i>
+    <i name="hartreedc">  -4941.06410521 </i>
+    <i name="XCdc">     96.07498173 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00111828 </i>
+    <i name="bandstr">   -318.47957197 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27803413 </i>
+    <i name="e_wo_entrp">    -66.27691586 </i>
+    <i name="e_0_energy">    -66.27747499 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17463260       0.17450751       0.00000000 </v>
+    <v>       0.50786584       0.50804103       0.00000000 </v>
+    <v>      -0.00139523      -0.00078400       0.00000000 </v>
+    <v>       0.52595194      -0.00078400       0.00000000 </v>
+    <v>       0.68378306       0.15620659       0.00000000 </v>
+    <v>       0.99871538       0.52634195      -0.00000000 </v>
+    <v>       0.15654650       0.68333254       0.00000000 </v>
+    <v>       0.68389367       0.68333254       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000       0.03124554       0.00000000 </v>
+   <v>      -0.00000000      -0.03124554       0.00000000 </v>
+   <v>      -0.00640498      -0.08511030       0.00000000 </v>
+   <v>       0.00640498      -0.08511030       0.00000000 </v>
+   <v>      -0.00000000       0.03909511       0.00000000 </v>
+   <v>       0.00000000      -0.03909511      -0.00000000 </v>
+   <v>      -0.00640498       0.08511030       0.00000000 </v>
+   <v>       0.00640498       0.08511030       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.84991127      -0.00000000       0.00000000 </v>
+   <v>       0.00000000       8.83370466       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.70407963 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27803413 </i>
+   <i name="e_wo_entrp">    -66.27747499 </i>
+   <i name="e_0_energy">     -0.00111828 </i>
+  </energy>
+  <time name="totalsc">   86.92   87.19</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.89   14.93</time>
+   <time name="total">   15.04   15.08</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.64568057 </i>
+    <i name="hartreedc">  -4941.11282039 </i>
+    <i name="XCdc">     96.07606719 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00110781 </i>
+    <i name="bandstr">   -318.50192203 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27803163 </i>
+    <i name="e_wo_entrp">    -66.27692382 </i>
+    <i name="e_0_energy">    -66.27747773 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.90   18.95</time>
+   <time name="total">   18.90   18.96</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27803283 </i>
+    <i name="e_wo_entrp">    -66.27692502 </i>
+    <i name="e_0_energy">    -66.27747892 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   13.96   14.00</time>
+   <time name="total">   13.96   14.00</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.64568057 </i>
+    <i name="hartreedc">  -4941.11282039 </i>
+    <i name="XCdc">     96.07606719 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00110781 </i>
+    <i name="bandstr">   -318.50192324 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27803284 </i>
+    <i name="e_wo_entrp">    -66.27692503 </i>
+    <i name="e_0_energy">    -66.27747894 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17463373       0.17450525       0.00000000 </v>
+    <v>       0.50786471       0.50804329       0.00000000 </v>
+    <v>      -0.00142179      -0.00079893       0.00000000 </v>
+    <v>       0.52599343      -0.00079893       0.00000000 </v>
+    <v>       0.68380651       0.15615969       0.00000000 </v>
+    <v>       0.99869193       0.52638885      -0.00000000 </v>
+    <v>       0.15650501       0.68334746       0.00000000 </v>
+    <v>       0.68392023       0.68334746       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.03230238      -0.00000000 </v>
+   <v>       0.00000000      -0.03230238      -0.00000000 </v>
+   <v>       0.00150232      -0.08384223      -0.00000000 </v>
+   <v>      -0.00150232      -0.08384223       0.00000000 </v>
+   <v>       0.00000000       0.04944805       0.00000000 </v>
+   <v>      -0.00000000      -0.04944805      -0.00000000 </v>
+   <v>       0.00150232       0.08384223      -0.00000000 </v>
+   <v>      -0.00150232       0.08384223       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.93247484       0.00000000       0.00000000 </v>
+   <v>       0.00000000       8.90270615       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.77971680 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27803284 </i>
+   <i name="e_wo_entrp">    -66.27747894 </i>
+   <i name="e_0_energy">     -0.00110781 </i>
+  </energy>
+  <time name="totalsc">   62.67   62.91</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.63   14.67</time>
+   <time name="total">   14.78   14.81</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4064.01152984 </i>
+    <i name="hartreedc">  -4941.36723971 </i>
+    <i name="XCdc">     96.08173320 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00104175 </i>
+    <i name="bandstr">   -318.61733408 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27628166 </i>
+    <i name="e_wo_entrp">    -66.27523991 </i>
+    <i name="e_0_energy">    -66.27576079 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   16.75   16.80</time>
+   <time name="total">   16.75   16.80</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27658776 </i>
+    <i name="e_wo_entrp">    -66.27554597 </i>
+    <i name="e_0_energy">    -66.27606686 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   19.75   19.80</time>
+   <time name="total">   19.75   19.80</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27659349 </i>
+    <i name="e_wo_entrp">    -66.27555170 </i>
+    <i name="e_0_energy">    -66.27607259 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   19.83   19.89</time>
+   <time name="total">   19.83   19.89</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4064.01152984 </i>
+    <i name="hartreedc">  -4941.36723971 </i>
+    <i name="XCdc">     96.08173320 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00104179 </i>
+    <i name="bandstr">   -318.61764591 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27659354 </i>
+    <i name="e_wo_entrp">    -66.27555175 </i>
+    <i name="e_0_energy">    -66.27607264 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17448122       0.17481027       0.00000000 </v>
+    <v>       0.50801722       0.50773826       0.00000000 </v>
+    <v>      -0.00108070      -0.00164987      -0.00000000 </v>
+    <v>       0.52650328      -0.00164987       0.00000000 </v>
+    <v>       0.68363491       0.15650289       0.00000000 </v>
+    <v>       0.99886353       0.52604565      -0.00000000 </v>
+    <v>       0.15599516       0.68419840       0.00000000 </v>
+    <v>       0.68357914       0.68419840       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000      -0.11709530      -0.00000000 </v>
+   <v>       0.00000000       0.11709530      -0.00000000 </v>
+   <v>       0.00112521       0.23583987       0.00000000 </v>
+   <v>      -0.00112521       0.23583987      -0.00000000 </v>
+   <v>      -0.00000000      -0.14577654      -0.00000000 </v>
+   <v>       0.00000000       0.14577654      -0.00000000 </v>
+   <v>       0.00112521      -0.23583987       0.00000000 </v>
+   <v>      -0.00112521      -0.23583987      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.87080406       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.78920654       0.00000000 </v>
+   <v>       0.00000000       0.00000000       9.19068409 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27659354 </i>
+   <i name="e_wo_entrp">    -66.27607264 </i>
+   <i name="e_0_energy">     -0.00104179 </i>
+  </energy>
+  <time name="totalsc">   85.86   86.16</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.66   14.70</time>
+   <time name="total">   14.81   14.85</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73675694 </i>
+    <i name="hartreedc">  -4941.17716729 </i>
+    <i name="XCdc">     96.07748715 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53019148 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27805024 </i>
+    <i name="e_wo_entrp">    -66.27704384 </i>
+    <i name="e_0_energy">    -66.27754704 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   16.87   16.91</time>
+   <time name="total">   16.87   16.91</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27822188 </i>
+    <i name="e_wo_entrp">    -66.27721546 </i>
+    <i name="e_0_energy">    -66.27771867 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   19.57   19.62</time>
+   <time name="total">   19.57   19.62</time>
+   <energy>
+    <i name="e_fr_energy">    -66.27822503 </i>
+    <i name="e_wo_entrp">    -66.27721861 </i>
+    <i name="e_0_energy">    -66.27772182 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   18.16   18.20</time>
+   <time name="total">   18.16   18.20</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73675694 </i>
+    <i name="hartreedc">  -4941.17716729 </i>
+    <i name="XCdc">     96.07748715 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53036628 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822505 </i>
+    <i name="e_wo_entrp">    -66.27721864 </i>
+    <i name="e_0_energy">    -66.27772184 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17459483       0.17458305       0.00000000 </v>
+    <v>       0.50790361       0.50796549       0.00000000 </v>
+    <v>      -0.00133479      -0.00101597      -0.00000000 </v>
+    <v>       0.52612347      -0.00101597       0.00000000 </v>
+    <v>       0.68376274       0.15624723       0.00000000 </v>
+    <v>       0.99873570       0.52630131      -0.00000000 </v>
+    <v>       0.15637497       0.68356451       0.00000000 </v>
+    <v>       0.68383324       0.68356451       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000      -0.00562351      -0.00000000 </v>
+   <v>       0.00000000       0.00562351      -0.00000000 </v>
+   <v>       0.00121967      -0.00328262      -0.00000000 </v>
+   <v>      -0.00121967      -0.00328262      -0.00000000 </v>
+   <v>       0.00000000      -0.00028432      -0.00000000 </v>
+   <v>       0.00000000       0.00028432       0.00000000 </v>
+   <v>       0.00121967       0.00328262      -0.00000000 </v>
+   <v>      -0.00121967       0.00328262       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.91419767      -0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.12123032       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.88844664 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822505 </i>
+   <i name="e_wo_entrp">    -66.27772184 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   84.18   84.46</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   15.07   15.11</time>
+   <time name="total">   15.22   15.26</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73868949 </i>
+    <i name="hartreedc">  -4941.17852510 </i>
+    <i name="XCdc">     96.07751721 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100492 </i>
+    <i name="bandstr">   -318.53097251 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822500 </i>
+    <i name="e_wo_entrp">    -66.27722008 </i>
+    <i name="e_0_energy">    -66.27772254 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   11.93   11.96</time>
+   <time name="total">   11.93   11.96</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73868949 </i>
+    <i name="hartreedc">  -4941.17852510 </i>
+    <i name="XCdc">     96.07751721 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100492 </i>
+    <i name="bandstr">   -318.53097252 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822501 </i>
+    <i name="e_wo_entrp">    -66.27722008 </i>
+    <i name="e_0_energy">    -66.27772255 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17459401       0.17458468       0.00000000 </v>
+    <v>       0.50790443       0.50796386       0.00000000 </v>
+    <v>      -0.00133296      -0.00102053      -0.00000000 </v>
+    <v>       0.52612621      -0.00102053       0.00000000 </v>
+    <v>       0.68376182       0.15624907       0.00000000 </v>
+    <v>       0.99873662       0.52629947      -0.00000000 </v>
+    <v>       0.15637223       0.68356907       0.00000000 </v>
+    <v>       0.68383140       0.68356907       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000      -0.00640730      -0.00000000 </v>
+   <v>      -0.00000000       0.00640730       0.00000000 </v>
+   <v>       0.00119784      -0.00147610      -0.00000000 </v>
+   <v>      -0.00119784      -0.00147610      -0.00000000 </v>
+   <v>      -0.00000000      -0.00139070      -0.00000000 </v>
+   <v>      -0.00000000       0.00139070       0.00000000 </v>
+   <v>       0.00119784       0.00147610       0.00000000 </v>
+   <v>      -0.00119784       0.00147610       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.91353932      -0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.12606432       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89072496 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822501 </i>
+   <i name="e_wo_entrp">    -66.27772255 </i>
+   <i name="e_0_energy">     -0.00100492 </i>
+  </energy>
+  <time name="totalsc">   41.95   42.12</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.44   10.47</time>
+   <time name="total">   10.58   10.61</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73860935 </i>
+    <i name="hartreedc">  -4941.17846880 </i>
+    <i name="XCdc">     96.07751596 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100498 </i>
+    <i name="bandstr">   -318.53094738 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822501 </i>
+    <i name="e_wo_entrp">    -66.27722003 </i>
+    <i name="e_0_energy">    -66.27772252 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.20   10.22</time>
+   <time name="total">   10.20   10.22</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73860935 </i>
+    <i name="hartreedc">  -4941.17846880 </i>
+    <i name="XCdc">     96.07751596 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100498 </i>
+    <i name="bandstr">   -318.53094738 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822501 </i>
+    <i name="e_wo_entrp">    -66.27722003 </i>
+    <i name="e_0_energy">    -66.27772252 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17459405       0.17458461       0.00000000 </v>
+    <v>       0.50790439       0.50796392       0.00000000 </v>
+    <v>      -0.00133304      -0.00102034      -0.00000000 </v>
+    <v>       0.52612609      -0.00102034       0.00000000 </v>
+    <v>       0.68376186       0.15624899       0.00000000 </v>
+    <v>       0.99873658       0.52629955      -0.00000000 </v>
+    <v>       0.15637235       0.68356888       0.00000000 </v>
+    <v>       0.68383148       0.68356888       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000      -0.00638657      -0.00000000 </v>
+   <v>       0.00000000       0.00638657      -0.00000000 </v>
+   <v>       0.00120759      -0.00162949      -0.00000000 </v>
+   <v>      -0.00120759      -0.00162949      -0.00000000 </v>
+   <v>      -0.00000000      -0.00131343       0.00000000 </v>
+   <v>       0.00000000       0.00131343      -0.00000000 </v>
+   <v>       0.00120759       0.00162949       0.00000000 </v>
+   <v>      -0.00120759       0.00162949       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.91379697       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.12569513       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89051776 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822501 </i>
+   <i name="e_wo_entrp">    -66.27772252 </i>
+   <i name="e_0_energy">     -0.00100498 </i>
+  </energy>
+  <time name="totalsc">   35.53   35.70</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.09   10.11</time>
+   <time name="total">   10.23   10.26</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73864751 </i>
+    <i name="hartreedc">  -4941.17849561 </i>
+    <i name="XCdc">     96.07751656 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100496 </i>
+    <i name="bandstr">   -318.53095935 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822501 </i>
+    <i name="e_wo_entrp">    -66.27722006 </i>
+    <i name="e_0_energy">    -66.27772253 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.09   10.12</time>
+   <time name="total">   10.09   10.12</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.73864751 </i>
+    <i name="hartreedc">  -4941.17849561 </i>
+    <i name="XCdc">     96.07751656 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100496 </i>
+    <i name="bandstr">   -318.53095935 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822501 </i>
+    <i name="e_wo_entrp">    -66.27722006 </i>
+    <i name="e_0_energy">    -66.27772253 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17459403       0.17458465       0.00000000 </v>
+    <v>       0.50790441       0.50796389       0.00000000 </v>
+    <v>      -0.00133300      -0.00102043      -0.00000000 </v>
+    <v>       0.52612615      -0.00102043       0.00000000 </v>
+    <v>       0.68376184       0.15624903       0.00000000 </v>
+    <v>       0.99873660       0.52629951      -0.00000000 </v>
+    <v>       0.15637229       0.68356897       0.00000000 </v>
+    <v>       0.68383144       0.68356897       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000      -0.00640637      -0.00000000 </v>
+   <v>       0.00000000       0.00640637      -0.00000000 </v>
+   <v>       0.00121057      -0.00156699      -0.00000000 </v>
+   <v>      -0.00121057      -0.00156699      -0.00000000 </v>
+   <v>      -0.00000000      -0.00133801      -0.00000000 </v>
+   <v>       0.00000000       0.00133801      -0.00000000 </v>
+   <v>       0.00121057       0.00156699       0.00000000 </v>
+   <v>      -0.00121057       0.00156699       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.91368545       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.12584709       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89051987 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822501 </i>
+   <i name="e_wo_entrp">    -66.27772253 </i>
+   <i name="e_0_energy">     -0.00100496 </i>
+  </energy>
+  <time name="totalsc">   35.08   35.21</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.79   14.83</time>
+   <time name="total">   14.94   14.98</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74316195 </i>
+    <i name="hartreedc">  -4941.18165632 </i>
+    <i name="XCdc">     96.07758648 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100724 </i>
+    <i name="bandstr">   -318.53238096 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822525 </i>
+    <i name="e_wo_entrp">    -66.27721801 </i>
+    <i name="e_0_energy">    -66.27772163 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   17.06   17.11</time>
+   <time name="total">   17.07   17.11</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74316195 </i>
+    <i name="hartreedc">  -4941.18165632 </i>
+    <i name="XCdc">     96.07758648 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100724 </i>
+    <i name="bandstr">   -318.53238148 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822577 </i>
+    <i name="e_wo_entrp">    -66.27721853 </i>
+    <i name="e_0_energy">    -66.27772215 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17461992       0.17453286       0.00000000 </v>
+    <v>       0.50787852       0.50801567       0.00000000 </v>
+    <v>      -0.00131700      -0.00103568      -0.00000000 </v>
+    <v>       0.52612539      -0.00103568      -0.00000000 </v>
+    <v>       0.68376686       0.15623899       0.00000000 </v>
+    <v>       0.99873158       0.52630955      -0.00000000 </v>
+    <v>       0.15637305       0.68358422       0.00000000 </v>
+    <v>       0.68381544       0.68358422       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00148010      -0.00000000 </v>
+   <v>       0.00000000      -0.00148010       0.00000000 </v>
+   <v>      -0.00174173       0.00114061      -0.00000000 </v>
+   <v>       0.00174173       0.00114061       0.00000000 </v>
+   <v>       0.00000000       0.00242581      -0.00000000 </v>
+   <v>       0.00000000      -0.00242581      -0.00000000 </v>
+   <v>      -0.00174173      -0.00114061      -0.00000000 </v>
+   <v>       0.00174173      -0.00114061       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90182596       0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.14790121       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89581272 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822577 </i>
+   <i name="e_wo_entrp">    -66.27772215 </i>
+   <i name="e_0_energy">     -0.00100724 </i>
+  </energy>
+  <time name="totalsc">   46.72   46.89</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.78   14.82</time>
+   <time name="total">   14.92   14.96</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74185160 </i>
+    <i name="hartreedc">  -4941.18073994 </i>
+    <i name="XCdc">     96.07756620 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100657 </i>
+    <i name="bandstr">   -318.53196817 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822604 </i>
+    <i name="e_wo_entrp">    -66.27721947 </i>
+    <i name="e_0_energy">    -66.27772276 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   16.23   16.28</time>
+   <time name="total">   16.23   16.28</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74185160 </i>
+    <i name="hartreedc">  -4941.18073994 </i>
+    <i name="XCdc">     96.07756620 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100657 </i>
+    <i name="bandstr">   -318.53196821 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822608 </i>
+    <i name="e_wo_entrp">    -66.27721951 </i>
+    <i name="e_0_energy">    -66.27772280 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17461243       0.17454784       0.00000000 </v>
+    <v>       0.50788601       0.50800069       0.00000000 </v>
+    <v>      -0.00132163      -0.00103127      -0.00000000 </v>
+    <v>       0.52612561      -0.00103127      -0.00000000 </v>
+    <v>       0.68376541       0.15624190       0.00000000 </v>
+    <v>       0.99873303       0.52630664      -0.00000000 </v>
+    <v>       0.15637283       0.68357981       0.00000000 </v>
+    <v>       0.68382007       0.68357981       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000      -0.00108658       0.00000000 </v>
+   <v>      -0.00000000       0.00108658       0.00000000 </v>
+   <v>      -0.00071462       0.00007913      -0.00000000 </v>
+   <v>       0.00071462       0.00007913      -0.00000000 </v>
+   <v>      -0.00000000       0.00129871       0.00000000 </v>
+   <v>       0.00000000      -0.00129871      -0.00000000 </v>
+   <v>      -0.00071462      -0.00007913       0.00000000 </v>
+   <v>       0.00071462      -0.00007913       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90521632       0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.14145095       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89400441 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822608 </i>
+   <i name="e_wo_entrp">    -66.27772280 </i>
+   <i name="e_0_energy">     -0.00100657 </i>
+  </energy>
+  <time name="totalsc">   47.66   48.00</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.92   14.96</time>
+   <time name="total">   15.07   15.11</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74203142 </i>
+    <i name="hartreedc">  -4941.18086575 </i>
+    <i name="XCdc">     96.07756899 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100666 </i>
+    <i name="bandstr">   -318.53202490 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822607 </i>
+    <i name="e_wo_entrp">    -66.27721941 </i>
+    <i name="e_0_energy">    -66.27772274 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.05   10.07</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74203142 </i>
+    <i name="hartreedc">  -4941.18086575 </i>
+    <i name="XCdc">     96.07756899 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100666 </i>
+    <i name="bandstr">   -318.53202490 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822607 </i>
+    <i name="e_wo_entrp">    -66.27721941 </i>
+    <i name="e_0_energy">    -66.27772274 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17461346       0.17454579       0.00000000 </v>
+    <v>       0.50788498       0.50800275       0.00000000 </v>
+    <v>      -0.00132100      -0.00103187      -0.00000000 </v>
+    <v>       0.52612558      -0.00103187      -0.00000000 </v>
+    <v>       0.68376561       0.15624150       0.00000000 </v>
+    <v>       0.99873283       0.52630704      -0.00000000 </v>
+    <v>       0.15637286       0.68358041       0.00000000 </v>
+    <v>       0.68381944       0.68358041       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000      -0.00067410      -0.00000000 </v>
+   <v>      -0.00000000       0.00067410       0.00000000 </v>
+   <v>      -0.00088934       0.00028745       0.00000000 </v>
+   <v>       0.00088934       0.00028745       0.00000000 </v>
+   <v>      -0.00000000       0.00147203       0.00000000 </v>
+   <v>       0.00000000      -0.00147203       0.00000000 </v>
+   <v>      -0.00088934      -0.00028745       0.00000000 </v>
+   <v>       0.00088934      -0.00028745      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90473797       0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.14235632       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89420032 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822607 </i>
+   <i name="e_wo_entrp">    -66.27772274 </i>
+   <i name="e_0_energy">     -0.00100666 </i>
+  </energy>
+  <time name="totalsc">   39.86   40.01</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.87   14.89</time>
+   <time name="total">   15.01   15.04</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74155623 </i>
+    <i name="hartreedc">  -4941.18053280 </i>
+    <i name="XCdc">     96.07756162 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100652 </i>
+    <i name="bandstr">   -318.53187560 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822624 </i>
+    <i name="e_wo_entrp">    -66.27721972 </i>
+    <i name="e_0_energy">    -66.27772298 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   12.60   12.62</time>
+   <time name="total">   12.60   12.62</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74155623 </i>
+    <i name="hartreedc">  -4941.18053280 </i>
+    <i name="XCdc">     96.07756162 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100652 </i>
+    <i name="bandstr">   -318.53187561 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822626 </i>
+    <i name="e_wo_entrp">    -66.27721973 </i>
+    <i name="e_0_energy">    -66.27772299 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17461856       0.17453560      -0.00000000 </v>
+    <v>       0.50787988       0.50801294       0.00000000 </v>
+    <v>      -0.00132661      -0.00103108      -0.00000000 </v>
+    <v>       0.52613040      -0.00103108      -0.00000000 </v>
+    <v>       0.68376034       0.15625203       0.00000000 </v>
+    <v>       0.99873810       0.52629651      -0.00000000 </v>
+    <v>       0.15636804       0.68357962       0.00000000 </v>
+    <v>       0.68382505       0.68357962       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000      -0.00021428       0.00000000 </v>
+   <v>      -0.00000000       0.00021428       0.00000000 </v>
+   <v>      -0.00031455       0.00012604       0.00000000 </v>
+   <v>       0.00031455       0.00012604       0.00000000 </v>
+   <v>      -0.00000000       0.00044485      -0.00000000 </v>
+   <v>       0.00000000      -0.00044485       0.00000000 </v>
+   <v>      -0.00031455      -0.00012604       0.00000000 </v>
+   <v>       0.00031455      -0.00012604      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90678725       0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.13926154       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89364555 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822626 </i>
+   <i name="e_wo_entrp">    -66.27772299 </i>
+   <i name="e_0_energy">     -0.00100652 </i>
+  </energy>
+  <time name="totalsc">   42.36   42.50</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.85   14.88</time>
+   <time name="total">   14.99   15.03</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74132860 </i>
+    <i name="hartreedc">  -4941.18037339 </i>
+    <i name="XCdc">     96.07755809 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100646 </i>
+    <i name="bandstr">   -318.53180397 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721982 </i>
+    <i name="e_0_energy">    -66.27772305 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.81   10.83</time>
+   <time name="total">   10.81   10.84</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74132860 </i>
+    <i name="hartreedc">  -4941.18037339 </i>
+    <i name="XCdc">     96.07755809 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100646 </i>
+    <i name="bandstr">   -318.53180397 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822629 </i>
+    <i name="e_wo_entrp">    -66.27721983 </i>
+    <i name="e_0_energy">    -66.27772306 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462099       0.17453072      -0.00000000 </v>
+    <v>       0.50787745       0.50801782       0.00000000 </v>
+    <v>      -0.00132929      -0.00103070       0.00000000 </v>
+    <v>       0.52613270      -0.00103070      -0.00000000 </v>
+    <v>       0.68375782       0.15625708       0.00000000 </v>
+    <v>       0.99874062       0.52629146      -0.00000000 </v>
+    <v>       0.15636574       0.68357924       0.00000000 </v>
+    <v>       0.68382773       0.68357924      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000      -0.00001368       0.00000000 </v>
+   <v>       0.00000000       0.00001368       0.00000000 </v>
+   <v>      -0.00014637       0.00007529      -0.00000000 </v>
+   <v>       0.00014637       0.00007529       0.00000000 </v>
+   <v>      -0.00000000       0.00015658      -0.00000000 </v>
+   <v>       0.00000000      -0.00015658       0.00000000 </v>
+   <v>      -0.00014637      -0.00007529       0.00000000 </v>
+   <v>       0.00014637      -0.00007529       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90783108      -0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13770711       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89345052 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822629 </i>
+   <i name="e_wo_entrp">    -66.27772306 </i>
+   <i name="e_0_energy">     -0.00100646 </i>
+  </energy>
+  <time name="totalsc">   40.55   40.69</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.86   14.91</time>
+   <time name="total">   15.01   15.06</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74087303 </i>
+    <i name="hartreedc">  -4941.18005445 </i>
+    <i name="XCdc">     96.07755101 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100632 </i>
+    <i name="bandstr">   -318.53166031 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822621 </i>
+    <i name="e_wo_entrp">    -66.27721988 </i>
+    <i name="e_0_energy">    -66.27772305 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   12.40   12.43</time>
+   <time name="total">   12.40   12.43</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74087303 </i>
+    <i name="hartreedc">  -4941.18005445 </i>
+    <i name="XCdc">     96.07755101 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100632 </i>
+    <i name="bandstr">   -318.53166032 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822622 </i>
+    <i name="e_wo_entrp">    -66.27721990 </i>
+    <i name="e_0_energy">    -66.27772306 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462587       0.17452097      -0.00000000 </v>
+    <v>       0.50787257       0.50802757       0.00000000 </v>
+    <v>      -0.00133467      -0.00102994       0.00000000 </v>
+    <v>       0.52613732      -0.00102994      -0.00000000 </v>
+    <v>       0.68375277       0.15626716       0.00000000 </v>
+    <v>       0.99874567       0.52628138      -0.00000000 </v>
+    <v>       0.15636112       0.68357848       0.00000000 </v>
+    <v>       0.68383311       0.68357848      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00041123      -0.00000000 </v>
+   <v>      -0.00000000      -0.00041123       0.00000000 </v>
+   <v>       0.00035036      -0.00006239       0.00000000 </v>
+   <v>      -0.00035036      -0.00006239       0.00000000 </v>
+   <v>      -0.00000000      -0.00073077       0.00000000 </v>
+   <v>       0.00000000       0.00073077      -0.00000000 </v>
+   <v>       0.00035036       0.00006239      -0.00000000 </v>
+   <v>      -0.00035036       0.00006239      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90968254       0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.13486303       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89290454 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822622 </i>
+   <i name="e_wo_entrp">    -66.27772306 </i>
+   <i name="e_0_energy">     -0.00100632 </i>
+  </energy>
+  <time name="totalsc">   42.18   42.35</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.83   14.86</time>
+   <time name="total">   14.97   15.01</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74124450 </i>
+    <i name="hartreedc">  -4941.18031449 </i>
+    <i name="XCdc">     96.07755678 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100643 </i>
+    <i name="bandstr">   -318.53177747 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721984 </i>
+    <i name="e_0_energy">    -66.27772306 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   11.81   11.84</time>
+   <time name="total">   11.81   11.85</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74124450 </i>
+    <i name="hartreedc">  -4941.18031449 </i>
+    <i name="XCdc">     96.07755678 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100643 </i>
+    <i name="bandstr">   -318.53177748 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822629 </i>
+    <i name="e_wo_entrp">    -66.27721985 </i>
+    <i name="e_0_energy">    -66.27772307 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462189       0.17452892      -0.00000000 </v>
+    <v>       0.50787655       0.50801962       0.00000000 </v>
+    <v>      -0.00133029      -0.00103056       0.00000000 </v>
+    <v>       0.52613356      -0.00103056      -0.00000000 </v>
+    <v>       0.68375689       0.15625894       0.00000000 </v>
+    <v>       0.99874155       0.52628960      -0.00000000 </v>
+    <v>       0.15636488       0.68357910       0.00000000 </v>
+    <v>       0.68382873       0.68357910      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000      -0.00001357      -0.00000000 </v>
+   <v>       0.00000000       0.00001357       0.00000000 </v>
+   <v>      -0.00019144       0.00004826      -0.00000000 </v>
+   <v>       0.00019144       0.00004826       0.00000000 </v>
+   <v>      -0.00000000       0.00026500      -0.00000000 </v>
+   <v>      -0.00000000      -0.00026500       0.00000000 </v>
+   <v>      -0.00019144      -0.00004826      -0.00000000 </v>
+   <v>       0.00019144      -0.00004826       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90810467       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13730407       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89341264 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822629 </i>
+   <i name="e_wo_entrp">    -66.27772307 </i>
+   <i name="e_0_energy">     -0.00100643 </i>
+  </energy>
+  <time name="totalsc">   41.52   41.67</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.84   14.88</time>
+   <time name="total">   14.99   15.02</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74105880 </i>
+    <i name="hartreedc">  -4941.18018448 </i>
+    <i name="XCdc">     96.07755390 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100638 </i>
+    <i name="bandstr">   -318.53171894 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822627 </i>
+    <i name="e_wo_entrp">    -66.27721989 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.05   10.08</time>
+   <time name="total">   10.05   10.08</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74105880 </i>
+    <i name="hartreedc">  -4941.18018448 </i>
+    <i name="XCdc">     96.07755390 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100638 </i>
+    <i name="bandstr">   -318.53171894 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822627 </i>
+    <i name="e_wo_entrp">    -66.27721989 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462388       0.17452494      -0.00000000 </v>
+    <v>       0.50787456       0.50802359       0.00000000 </v>
+    <v>      -0.00133248      -0.00103025       0.00000000 </v>
+    <v>       0.52613544      -0.00103025      -0.00000000 </v>
+    <v>       0.68375483       0.15626305       0.00000000 </v>
+    <v>       0.99874361       0.52628549      -0.00000000 </v>
+    <v>       0.15636300       0.68357879       0.00000000 </v>
+    <v>       0.68383092       0.68357879      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00024216      -0.00000000 </v>
+   <v>       0.00000000      -0.00024216       0.00000000 </v>
+   <v>       0.00011790      -0.00000110      -0.00000000 </v>
+   <v>      -0.00011790      -0.00000110       0.00000000 </v>
+   <v>      -0.00000000      -0.00029984      -0.00000000 </v>
+   <v>       0.00000000       0.00029984       0.00000000 </v>
+   <v>       0.00011790       0.00000110       0.00000000 </v>
+   <v>      -0.00011790       0.00000110       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90899520       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13597258       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89316451 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822627 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100638 </i>
+  </energy>
+  <time name="totalsc">   39.78   39.91</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.86   14.89</time>
+   <time name="total">   15.01   15.04</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.05   10.07</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613436      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636408       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00007209       0.00000000 </v>
+   <v>       0.00000000      -0.00007209       0.00000000 </v>
+   <v>      -0.00005564       0.00001783       0.00000000 </v>
+   <v>       0.00005564       0.00001783       0.00000000 </v>
+   <v>      -0.00000000       0.00001484       0.00000000 </v>
+   <v>      -0.00000000      -0.00001484       0.00000000 </v>
+   <v>      -0.00005564      -0.00001783       0.00000000 </v>
+   <v>       0.00005564      -0.00001783       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90839739      -0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.13684530       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330785 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   39.80   39.95</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.20   10.22</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116287 </i>
+    <i name="hartreedc">  -4941.18025734 </i>
+    <i name="XCdc">     96.07755551 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175176 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.15   10.18</time>
+   <time name="total">   10.15   10.18</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116287 </i>
+    <i name="hartreedc">  -4941.18025734 </i>
+    <i name="XCdc">     96.07755551 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175176 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462277       0.17452717      -0.00000000 </v>
+    <v>       0.50787567       0.50802137       0.00000000 </v>
+    <v>      -0.00133125      -0.00103042       0.00000000 </v>
+    <v>       0.52613438      -0.00103042      -0.00000000 </v>
+    <v>       0.68375598       0.15626075       0.00000000 </v>
+    <v>       0.99874246       0.52628779      -0.00000000 </v>
+    <v>       0.15636406       0.68357896       0.00000000 </v>
+    <v>       0.68382969       0.68357896      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00009115      -0.00000000 </v>
+   <v>      -0.00000000      -0.00009115       0.00000000 </v>
+   <v>      -0.00003285       0.00001838       0.00000000 </v>
+   <v>       0.00003285       0.00001838      -0.00000000 </v>
+   <v>      -0.00000000      -0.00002387       0.00000000 </v>
+   <v>       0.00000000       0.00002387      -0.00000000 </v>
+   <v>      -0.00003285      -0.00001838       0.00000000 </v>
+   <v>       0.00003285      -0.00001838      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90844249       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13679145       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89329702 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   35.13   35.25</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.20   10.22</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116444 </i>
+    <i name="hartreedc">  -4941.18025844 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175225 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.07   10.09</time>
+   <time name="total">   10.07   10.09</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116444 </i>
+    <i name="hartreedc">  -4941.18025844 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175225 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613437      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636407       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000       0.00009461       0.00000000 </v>
+   <v>       0.00000000      -0.00009461       0.00000000 </v>
+   <v>      -0.00003313       0.00002056      -0.00000000 </v>
+   <v>       0.00003313       0.00002056       0.00000000 </v>
+   <v>      -0.00000000      -0.00002400       0.00000000 </v>
+   <v>       0.00000000       0.00002400       0.00000000 </v>
+   <v>      -0.00003313      -0.00002056       0.00000000 </v>
+   <v>       0.00003313      -0.00002056       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90845095       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13678423       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330169 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   34.99   35.12</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.20   10.22</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116466 </i>
+    <i name="hartreedc">  -4941.18025859 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175232 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.04   10.07</time>
+   <time name="total">   10.04   10.07</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116466 </i>
+    <i name="hartreedc">  -4941.18025859 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175232 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613437      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636408       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00009776       0.00000000 </v>
+   <v>       0.00000000      -0.00009776       0.00000000 </v>
+   <v>      -0.00002955       0.00002054       0.00000000 </v>
+   <v>       0.00002955       0.00002054       0.00000000 </v>
+   <v>      -0.00000000      -0.00003099      -0.00000000 </v>
+   <v>      -0.00000000       0.00003099       0.00000000 </v>
+   <v>      -0.00002955      -0.00002054       0.00000000 </v>
+   <v>       0.00002955      -0.00002054       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90845521       0.00000000       0.00000000 </v>
+   <v>      -0.00000000       9.13677843       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330168 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   36.73   37.01</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.07   10.09</time>
+   <time name="total">   10.21   10.24</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025861 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.05   10.07</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025861 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613436      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636408       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00009932      -0.00000000 </v>
+   <v>       0.00000000      -0.00009932      -0.00000000 </v>
+   <v>      -0.00002805       0.00002064       0.00000000 </v>
+   <v>       0.00002805       0.00002064      -0.00000000 </v>
+   <v>       0.00000000      -0.00003415      -0.00000000 </v>
+   <v>      -0.00000000       0.00003415      -0.00000000 </v>
+   <v>      -0.00002805      -0.00002064      -0.00000000 </v>
+   <v>       0.00002805      -0.00002064      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90845757       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13677484       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330135 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   35.03   35.15</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.09   10.11</time>
+   <time name="total">   10.24   10.27</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.06   10.08</time>
+   <time name="total">   10.06   10.08</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613436      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636408       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000       0.00010003       0.00000000 </v>
+   <v>       0.00000000      -0.00010003      -0.00000000 </v>
+   <v>      -0.00002749       0.00002074      -0.00000000 </v>
+   <v>       0.00002749       0.00002074       0.00000000 </v>
+   <v>       0.00000000      -0.00003537       0.00000000 </v>
+   <v>      -0.00000000       0.00003537       0.00000000 </v>
+   <v>      -0.00002749      -0.00002074      -0.00000000 </v>
+   <v>       0.00002749      -0.00002074       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90845874      -0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13677296       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330109 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   35.05   35.17</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.06   10.08</time>
+   <time name="total">   10.20   10.23</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   10.00   10.02</time>
+   <time name="total">   10.00   10.02</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613436      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636408       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000       0.00010034      -0.00000000 </v>
+   <v>      -0.00000000      -0.00010034      -0.00000000 </v>
+   <v>      -0.00002728       0.00002079       0.00000000 </v>
+   <v>       0.00002728       0.00002079       0.00000000 </v>
+   <v>      -0.00000000      -0.00003587      -0.00000000 </v>
+   <v>       0.00000000       0.00003587      -0.00000000 </v>
+   <v>      -0.00002728      -0.00002079      -0.00000000 </v>
+   <v>       0.00002728      -0.00002079      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90845927       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13677202       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330095 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   34.94   35.07</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   10.05   10.07</time>
+   <time name="total">   10.20   10.21</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">    9.98   10.00</time>
+   <time name="total">    9.98   10.00</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74116469 </i>
+    <i name="hartreedc">  -4941.18025862 </i>
+    <i name="XCdc">     96.07755554 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100641 </i>
+    <i name="bandstr">   -318.53175233 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822628 </i>
+    <i name="e_wo_entrp">    -66.27721987 </i>
+    <i name="e_0_energy">    -66.27772308 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17462275       0.17452721      -0.00000000 </v>
+    <v>       0.50787569       0.50802133       0.00000000 </v>
+    <v>      -0.00133123      -0.00103043       0.00000000 </v>
+    <v>       0.52613436      -0.00103043      -0.00000000 </v>
+    <v>       0.68375600       0.15626071       0.00000000 </v>
+    <v>       0.99874244       0.52628783      -0.00000000 </v>
+    <v>       0.15636408       0.68357897       0.00000000 </v>
+    <v>       0.68382967       0.68357897      -0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>      -0.00000000       0.00010048      -0.00000000 </v>
+   <v>       0.00000000      -0.00010048       0.00000000 </v>
+   <v>      -0.00002720       0.00002083       0.00000000 </v>
+   <v>       0.00002720       0.00002083      -0.00000000 </v>
+   <v>       0.00000000      -0.00003608      -0.00000000 </v>
+   <v>      -0.00000000       0.00003608       0.00000000 </v>
+   <v>      -0.00002720      -0.00002083       0.00000000 </v>
+   <v>       0.00002720      -0.00002083       0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90845950       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.13677160       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89330088 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822628 </i>
+   <i name="e_wo_entrp">    -66.27772308 </i>
+   <i name="e_0_energy">     -0.00100641 </i>
+  </energy>
+  <time name="totalsc">   35.00   35.11</time>
+ </calculation>
+ <calculation>
+  <scstep>
+   <time name="dav">   14.79   14.81</time>
+   <time name="total">   14.94   14.96</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74203142 </i>
+    <i name="hartreedc">  -4941.18086575 </i>
+    <i name="XCdc">     96.07756899 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100666 </i>
+    <i name="bandstr">   -318.53202484 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822601 </i>
+    <i name="e_wo_entrp">    -66.27721934 </i>
+    <i name="e_0_energy">    -66.27772268 </i>
+   </energy>
+  </scstep>
+  <scstep>
+   <time name="dav">   15.00   15.02</time>
+   <time name="total">   15.00   15.02</time>
+   <energy>
+    <i name="alphaZ">     10.93933817 </i>
+    <i name="ewald">   4063.74203142 </i>
+    <i name="hartreedc">  -4941.18086575 </i>
+    <i name="XCdc">     96.07756899 </i>
+    <i name="pawpsdc">   2894.03382187 </i>
+    <i name="pawaedc">  -2896.56098873 </i>
+    <i name="eentropy">     -0.00100666 </i>
+    <i name="bandstr">   -318.53202490 </i>
+    <i name="atom">   1025.20389953 </i>
+    <i name="e_fr_energy">    -66.27822607 </i>
+    <i name="e_wo_entrp">    -66.27721940 </i>
+    <i name="e_0_energy">    -66.27772274 </i>
+   </energy>
+  </scstep>
+  <structure>
+   <crystal>
+    <varray name="basis" >
+     <v>       5.17400000       0.00000000       0.00000000 </v>
+     <v>       2.58700000       4.48100000       0.00000000 </v>
+     <v>       0.00000000       0.00000000      20.00000000 </v>
+    </varray>
+    <i name="volume">    463.69388000 </i>
+    <varray name="rec_basis" >
+     <v>       0.19327406      -0.11158224       0.00000000 </v>
+     <v>       0.00000000       0.22316447       0.00000000 </v>
+     <v>       0.00000000       0.00000000       0.05000000 </v>
+    </varray>
+   </crystal>
+   <varray name="positions" >
+    <v>       0.17461346       0.17454579       0.00000000 </v>
+    <v>       0.50788498       0.50800275       0.00000000 </v>
+    <v>      -0.00132100      -0.00103187      -0.00000000 </v>
+    <v>       0.52612558      -0.00103187      -0.00000000 </v>
+    <v>       0.68376561       0.15624150       0.00000000 </v>
+    <v>       0.99873283       0.52630704      -0.00000000 </v>
+    <v>       0.15637286       0.68358041       0.00000000 </v>
+    <v>       0.68381944       0.68358041       0.00000000 </v>
+   </varray>
+  </structure>
+  <varray name="forces" >
+   <v>       0.00000000      -0.00077306      -0.00000000 </v>
+   <v>       0.00000000       0.00077306      -0.00000000 </v>
+   <v>      -0.00104677       0.00027361       0.00000000 </v>
+   <v>       0.00104677       0.00027361      -0.00000000 </v>
+   <v>      -0.00000000       0.00182213       0.00000000 </v>
+   <v>       0.00000000      -0.00182213      -0.00000000 </v>
+   <v>      -0.00104677      -0.00027361      -0.00000000 </v>
+   <v>       0.00104677      -0.00027361      -0.00000000 </v>
+  </varray>
+  <varray name="stress" >
+   <v>       8.90484154       0.00000000       0.00000000 </v>
+   <v>       0.00000000       9.14228100       0.00000000 </v>
+   <v>       0.00000000       0.00000000       8.89427022 </v>
+  </varray>
+  <energy>
+   <i name="e_fr_energy">    -66.27822607 </i>
+   <i name="e_wo_entrp">    -66.27772274 </i>
+   <i name="e_0_energy">     -0.00100666 </i>
+  </energy>
