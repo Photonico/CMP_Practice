@@ -51,6 +51,6 @@
   + How to use: `qsub vasp_job.sh`
   + More information: [USYD](http://www.physics.usyd.edu.au/computing/)
 
-## Data analysis
+## Data analysis and demonstration
 
 + With the package `py4vasp`
