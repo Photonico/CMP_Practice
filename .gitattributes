@@ -1,3 +1,0 @@
-**/WAVECAR filter=lfs diff=lfs merge=lfs -text
-
-git add .gitattributes
